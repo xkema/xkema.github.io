@@ -1,0 +1,18 @@
+// native font stack
+$font-family-sans-serif:
+  -apple-system,       // Safari for OS X and iOS (San Francisco)
+  BlinkMacSystemFont,  // Chrome < 56 for OS X (San Francisco)
+  "Segoe UI",          // Windows
+  "Roboto",            // Android
+  "Helvetica Neue",    // Basic web fallback fonts
+  Arial,
+  sans-serif,
+  "Apple Color Emoji", // Emoji fonts
+  "Segoe UI Emoji",
+  "Segoe UI Symbol"; 
+
+// import partials
+@import
+  "base",
+  "layout"
+;

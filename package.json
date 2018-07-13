@@ -1,0 +1,20 @@
+{
+  "name": "xkema.github.io",
+  "version": "1.0.0",
+  "description": "xkema.github.io",
+  "main": "index.js",
+  "scripts": {
+    "build": "jekyll serve --draft",
+    "server": "browser-sync start --proxy localhost:4000 --no-open --files _site/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkema/xkema.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xkema/xkema.github.io/issues"
+  },
+  "homepage": "https://github.com/xkema/xkema.github.io#readme"
+}

@@ -1,0 +1,11 @@
+# jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# node modules
+node_modules
+
+# drafts (ignore draft folders ?)
+_drafts
