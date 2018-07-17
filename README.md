@@ -14,7 +14,7 @@
 - add [sitemap.xml](https://help.github.com/articles/sitemaps-for-github-pages/)
   - [sitemap generator](https://github.com/jmcglone/jmcglone.github.io/blob/master/sitemap.xml)
 - use `msojt-` namespace
-- [color scheme](https://coolors.co/195cb5-3c88d8-fcfdff-d3dce5-177dea)
+- [color scheme](https://coolors.co/195cb5-d3dce5-fcfdff-3c88d8-177dea)
 - [ben-balter-jekyll-style-guide](http://ben.balter.com/jekyll-style-guide/)
 - [jekyll pretty permalinks](https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles)
 - credits page

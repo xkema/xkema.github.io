@@ -2,16 +2,20 @@
 layout: default
 ---
 
-<div>
-  <h1>{{ page.title }}</h1>
-</div>
+<article class="post-container">
+  <h1 class="post-title">{{ page.title }}</h1>
 
-<div>
-  {% for tag in page.tags %}
-  <a href="/">{{ tag }}</a>
-  {% endfor %}
-</div>
+  <time class="post-time" datetime="{{ post.date }}">
+    <small>{{ page.date | date_to_string }}</small>
+  </time>
 
-<div>
-  {{ content }}
-</div>
+  <div class="post-tags">
+    {% for tag in page.tags %}
+    <a href="/">{{ tag }}</a>
+    {% endfor %}
+  </div>
+  
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

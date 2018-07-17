@@ -1,3 +1,8 @@
+/**
+ * fonts
+ * -----
+ */
+
 // native font stack
 $font-family-sans-serif:
   -apple-system,       // Safari for OS X and iOS (San Francisco)
@@ -9,10 +14,34 @@ $font-family-sans-serif:
   sans-serif,
   "Apple Color Emoji", // Emoji fonts
   "Segoe UI Emoji",
-  "Segoe UI Symbol"; 
+  "Segoe UI Symbol";
+
+/**
+ * sizes
+ * -----
+ */
+
+$site-width: 720px;
+
+/**
+ * colors
+ * -----
+ */
+
+$color-dark  : #000000; // black
+$color-medium: #666666; // mid gray
+$color-light: #eeeeee;  // light gray
+
+// $color-primary       : #195cb5; // blue
+// $color-secondary     : #d3dce5; // gray
+// $color-light         : #fcfdff; // white
+// $color-medium        : #90969c; // dark gray
+// $color-dark          : #1b1c1d; // black
+// $color-primary-light : #3c88d8; // blue lighter
+// $color-primary-bright: #177dea; // blue brighter
 
 // import partials
 @import
   "base",
-  "layout"
+  "customize"
 ;

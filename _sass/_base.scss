@@ -1,5 +1,41 @@
 // base styles partial
 
-body {
-  font-family: $font-family-sans-serif;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%; // assuming 16px default font size on client browser, 1rem is 10px
+}
+
+body {
+  font-size: 1.6em;
+  font-family: $font-family-sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+header {
+  
+}
+
+footer {
+  
+}
+
+a {
+  color: $color-dark;
+}
+
+h1 { font-size: 3.2rem; margin: 2.2rem 0; }
+h2 { font-size: 2.4rem; margin: 2.0rem 0; }
+h3 { font-size: 1.8rem; margin: 1.8rem 0; }
+h4 { font-size: 1.6rem; margin: 2.4rem 0; }
+h5 { font-size: 1.3rem; margin: 2.2rem 0; }
+h6 { font-size: 1.1rem; margin: 2.4rem 0; }
+
+
+
+

@@ -1,0 +1,169 @@
+// layout partial
+
+/**
+ * layout container
+ */
+
+.container {
+  max-width: $site-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+ * site header
+ */
+
+#site-header {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  
+  h1 {
+    margin-bottom: 0;
+    font-size: 4.5rem;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  nav {
+    a {
+      display: inline-block;
+      padding: 2px;
+    }
+  }
+}
+
+/**
+ * site footer
+ */
+
+#site-footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: $color-light;
+  text-align: center;
+  
+  nav {
+    a {
+      display: inline-block;
+      padding: 2px;
+    }
+  }
+}
+
+/**
+ * homepage posts list
+ */
+
+.posts-list { // <ul>
+  padding: 0;
+
+  li {
+    list-style: none;
+    display: block;
+  }
+
+  article {
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    time {
+      font-style: italic;
+    }
+
+    p {
+      color: $color-medium;
+    }   
+  }
+}
+
+/**
+ * post content
+ */
+
+.post-container {
+  .post-title { // <h1>
+    margin-bottom: 1rem;
+  }
+
+  .post-time {
+    font-style: italic;
+  }
+
+  .post-tags {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .post-content {
+
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/**
+ * custom elements
+ */
+
+.separator-triangle {
+  display: inline-block;
+  width: 2.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
