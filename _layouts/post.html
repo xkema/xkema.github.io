@@ -2,7 +2,13 @@
 layout: default
 ---
 
-<article class="post-container">
+{% if page.hero_image %}
+  <div class="post-hero-image">
+    <img src="{{ page.hero_image | uri_escape }}" alt="hero image">
+  </div>
+{% endif %}
+
+<article class="container post-container">
   <h1 class="post-title">{{ page.title }}</h1>
 
   <time class="post-time" datetime="{{ post.date }}">

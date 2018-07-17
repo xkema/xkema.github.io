@@ -3,7 +3,7 @@
  * -----
  */
 
-// native font stack
+// native font stack (from bootstrap 4)
 $font-family-sans-serif:
   -apple-system,       // Safari for OS X and iOS (San Francisco)
   BlinkMacSystemFont,  // Chrome < 56 for OS X (San Francisco)
@@ -43,5 +43,6 @@ $color-light: #eeeeee;  // light gray
 // import partials
 @import
   "base",
-  "customize"
+  "customize",
+  "highlight"
 ;

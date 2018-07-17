@@ -20,4 +20,5 @@
 - credits page
   - [jekyllrb.com](https://jekyllrb.com/docs/resources/)
   - [normalize.css](https://github.com/necolas/normalize.css/)
+- https://mademistakes.com/articles/using-jekyll-2016/
 

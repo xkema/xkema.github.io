@@ -2,6 +2,8 @@
 layout: post
 title: Layout Preview Page
 tags: [ hola, greta, lola ]
+excerpt: This is the layout preview page of this jekyll template, with basic html elements and etc..
+hero_image: https://picsum.photos/1600/720/?image=825
 ---
 
 ![Hero Image](https://picsum.photos/1200/480/?image=212)
@@ -46,7 +48,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolores it
 
 ### Image Inline
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. ![Sample Unsplash Image](https://picsum.photos/120/160/?image=756) Quae libero quibusdam, velit nostrum molestiae quisquam perspiciatis tenetur perferendis sapiente eos. Ipsam, consequatur. Eius eaque, veniam incidunt non. Dolore repellendus dolor voluptate soluta perferendis, iusto blanditiis voluptatem sit doloremque debitis non incidunt, voluptates aliquid culpa delectus suscipit mollitia nobis velit aperiam cupiditate natus ducimus aspernatur sunt. Provident, voluptas. Voluptate rerum voluptas molestias dicta quibusdam minima sed rem libero quo cum quasi provident, ad cupiditate laborum doloribus. Fuga molestias minima ipsum ea perspiciatis assumenda, recusandae sapiente illum, ratione quo provident nemo quidem. Tenetur repellat iste soluta a minus delectus, fuga culpa voluptas?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae libero quibusdam, velit nostrum molestiae quisquam perspiciatis tenetur perferendis sapiente eos. Ipsam, consequatur. Eius eaque, veniam incidunt non. Dolore repellendus dolor voluptate soluta perferendis, iusto blanditiis voluptatem sit doloremque debitis non incidunt, voluptates aliquid culpa delectus suscipit mollitia nobis velit aperiam cupiditate natus ducimus aspernatur sunt. Provident, voluptas. Voluptate rerum ![Sample Unsplash Image](https://picsum.photos/120/160/?image=756) voluptas molestias dicta quibusdam minima sed rem libero quo cum quasi provident, ad cupiditate laborum doloribus. Fuga molestias minima ipsum ea perspiciatis assumenda, recusandae sapiente illum, ratione quo provident nemo quidem. Tenetur repellat iste soluta a minus delectus, fuga culpa voluptas?
 
 ## Table
 
