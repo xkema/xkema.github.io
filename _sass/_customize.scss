@@ -16,7 +16,7 @@
 
 #site-header {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  // padding-bottom: 5rem;
   text-align: center;
   
   h1 {
@@ -51,11 +51,9 @@
   background-color: $color-light;
   text-align: center;
   
-  nav {
-    a {
-      display: inline-block;
-      padding: 2px;
-    }
+  a {
+    display: inline-block;
+    padding: 2px;
   }
 }
 
@@ -91,12 +89,6 @@
  * post content
  */
 
-.post-hero-image {
-  img {
-    max-width: 100%;
-  }  
-}
-
 .post-container {
   .post-title { // <h1>
     margin-bottom: 0rem;
@@ -109,6 +101,18 @@
   .post-tags {
     margin-top: 1rem;
     margin-bottom: 1rem;
+
+    > a {
+      display: inline-block;
+      border-radius: 12px;
+      font-size: 12px;
+      padding: 1px 8px;
+      background-color: $color-dark;
+      color: $color-medium;
+      float: left;
+      margin-right: 4px;
+      text-decoration: none;
+    }
   }
 
   .post-content {
@@ -121,15 +125,6 @@
     max-width: 100%;
     height: auto;
   }
-}
-
-/**
- * custom elements
- */
-
-.separator-triangle {
-  display: inline-block;
-  width: 2.4rem;
 }
 
 /**

@@ -1,6 +1,17 @@
 title: xkema.github.io
 email: kemalxyz@gmail.com
 description: welcome to xkema.github.io
-twitter_username: xkema
-github_username: xkema
-# permalink: /posts/:year/:month/:day/:title
+permalink: /blog/:title
+include:
+  - _pages
+# baseurl: /blog
+sass:
+  style: compressed
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      category: "uncategorized"
+      tags: "untagged"

@@ -4,8 +4,7 @@
   "description": "xkema.github.io",
   "main": "index.js",
   "scripts": {
-    "build": "jekyll serve --draft",
-    "server": "browser-sync start --proxy localhost:4000 --no-open --files _site/index.html"
+    "start": "jekyll serve --livereload"
   },
   "repository": {
     "type": "git",

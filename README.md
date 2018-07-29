@@ -2,23 +2,22 @@
 
 [xkema.github.io](https://xkema.github.io/)
 
-- `npm run build` to serve jekyll at development mode with `--drafts` flag
-- `npm run server` to proxy jekyll to a local port with browser-sync auto (see terminal output to see proxied output)
-- `build` and `server` scripts require globally installed `jekyll` and `browser-sync` packages
+- `npm start` to serve jekyll at development mode with `--livereload` flag, requires globally installed `jekyll` on local machine.
 
 ## todo
 
 - minimal theme [https://justjavascript.com](https://justjavascript.com)
 - set up [a custom domain](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
 - add [pagination](https://jekyllrb.com/docs/pagination/)
-- add [sitemap.xml](https://help.github.com/articles/sitemaps-for-github-pages/)
-  - [sitemap generator](https://github.com/jmcglone/jmcglone.github.io/blob/master/sitemap.xml)
-- use `msojt-` namespace
 - [color scheme](https://coolors.co/195cb5-d3dce5-fcfdff-3c88d8-177dea)
 - [ben-balter-jekyll-style-guide](http://ben.balter.com/jekyll-style-guide/)
-- [jekyll pretty permalinks](https://jekyllrb.com/docs/permalinks/#builtinpermalinkstyles)
-- credits page
-  - [jekyllrb.com](https://jekyllrb.com/docs/resources/)
-  - [normalize.css](https://github.com/necolas/normalize.css/)
-- https://mademistakes.com/articles/using-jekyll-2016/
+- **tl:dr;**'s tell what you get and what you don't get from this reading!
+- https://help.github.com/articles/configuring-jekyll-plugins/
+  - https://github.com/jekyll/jekyll-sitemap
+  - https://github.com/jekyll/jekyll-seo-tag
+- conditional html language tag set
+- `aria-*`
 
+## other
+
+- ` gem install eventmachine --platform ruby` fixes `--livereload` issues with `Unable to load the EventMachine C extension; ...` error

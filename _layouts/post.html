@@ -2,25 +2,18 @@
 layout: default
 ---
 
-{% if page.hero_image %}
-  <div class="post-hero-image">
-    <img src="{{ page.hero_image | uri_escape }}" alt="hero image">
-  </div>
-{% endif %}
-
 <article class="container post-container">
   <h1 class="post-title">{{ page.title }}</h1>
-
   <time class="post-time" datetime="{{ post.date }}">
     <small>{{ page.date | date_to_string }}</small>
   </time>
-
-  <div class="post-tags">
+  {% if page.tags.size > 0 %}
+  <div class="post-tags clearfix">
     {% for tag in page.tags %}
-    <a href="/">{{ tag }}</a>
+    <a href="/tags#{{ tag }}">{{ tag }}</a>
     {% endfor %}
   </div>
-  
+  {% endif %}
   <div class="post-content">
     {{ content }}
   </div>

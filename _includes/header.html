@@ -3,14 +3,12 @@
     <h1>
       <a href="/" title="lorem ipsum">Lorem Ipsum<!-- Kemal Yılmaz --></a>
     </h1>
-    <!-- <p>Hi, I'm Kemal, a front end developer from Istanbul</p> -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-    <!-- nav -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit<!-- Hi, I'm Kemal, a front end developer from Istanbul --></p>
     <nav>
       <a href="/" title="back to home page">home</a>
-      <a href="https://github.com/xkema" title="xkema on github">github</a>
+      <a href="{% link _pages/categories.md %}" title="categories">categories</a>
+      <a href="{% link _pages/tags.md %}" title="tags">tags</a>
     </nav>
-    <!-- separator -->
-    {% include separator-triangle.html %}
+    <hr>
   </div>
 </header>

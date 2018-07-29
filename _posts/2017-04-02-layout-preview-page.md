@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Layout Preview Page
-tags: [ hola, greta, lola ]
-excerpt: This is the layout preview page of this jekyll template, with basic html elements and etc..
-hero_image: https://picsum.photos/1600/720/?image=825
+excerpt: This is the layout preview page of this jekyll template, with basic HTML elements, styles and etc..
 ---
 
-![Hero Image](https://picsum.photos/1200/480/?image=212)
+![A Top Image](https://picsum.photos/1200/480/?image=212)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quo deserunt odio sint voluptatum reiciendis quae velit saepe harum sequi.
 
