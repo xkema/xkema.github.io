@@ -1,6 +1,5 @@
 ---
 layout: category
-title: Türkçe Yazılar
+title: category:turkce-yazilar
+category: turkce-yazilar
 ---
-
-tr category

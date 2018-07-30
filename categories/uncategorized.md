@@ -1,6 +1,5 @@
 ---
 layout: category
-title: Uncategorized Posts
+title: category:uncategorized
+category: uncategorized
 ---
-
-uncategorized category

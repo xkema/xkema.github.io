@@ -19,7 +19,7 @@ permalink: /categories
           {{ post.title }}
         </a>
       </li>
-      {% endfor %}        
+      {% endfor %}
     </ul>
   </li>
   {% endfor %}

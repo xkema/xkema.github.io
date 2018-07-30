@@ -1,6 +1,5 @@
 ---
+layout: tag
+title: tag:untagged
+tag: untagged
 ---
-
-raspberry tag
-
-{{ page.path }}
