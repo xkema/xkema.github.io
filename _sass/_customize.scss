@@ -7,6 +7,10 @@ hr {
     margin-top: $pad-large;
     margin-bottom: $pad-large;
   }
+  &.short {
+    margin-top: $pad-medium;
+    margin-bottom: $pad-medium;
+  }
   &.wide {
     max-width: $ruler-wide;
   }
@@ -130,6 +134,11 @@ hr {
       max-width: 100%;
       height: auto;
       // float: left;
+    }
+    hr {
+      max-width: $ruler-medium;
+      margin-top: $pad-medium;
+      margin-bottom: $pad-medium;
     }
   }
 }

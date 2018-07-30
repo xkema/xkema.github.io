@@ -79,10 +79,20 @@ Lorem ipsum **dolor** sit amet, consectetur adipisicing elit. Laboriosam perspic
 
 <button>click me!</button>
 
-## TL:DR;
+## TL;DR
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam perspiciatis distinctio quisquam eligendi voluptas incidunt placeat saepe minima quis tenetur id, hic ipsam nisi aperiam sunt earum quidem dignissimos odio. Rerum illo perferendis natus. Nesciunt itaque, beatae quo!
 
-## Blocquotes
+## Inline Horizontal Rule
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet recusandae maiores similique dicta natus libero exercitationem. Aliquam tempora ipsam optio est reiciendis ratione, omnis magni tenetur facilis mollitia temporibus incidunt quo praesentium eius quibusdam, sint architecto rerum molestias.
+
+- - -
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore et, corporis praesentium repudiandae nisi veritatis debitis aut, est voluptatibus fugit at ut. Architecto veniam sequi, assumenda consectetur officiis, dolorum alias. Fuga illum velit, fugiat? Eligendi quis ea deleniti fugit quos.
+
+## Blockquotes
+
+Lorem said:
 
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam perspiciatis distinctio excepturi ea quisquam eligendi voluptas incidunt placeat saepe minima quis tenetur id, hic ipsam nisi aperiam sunt earum quidem dignissimos odio. Rerum illo perferendis natus. Nesciunt itaque, beatae quo!
