@@ -48,6 +48,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolores it
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae libero quibusdam, velit nostrum molestiae quisquam perspiciatis tenetur perferendis sapiente eos. Ipsam, consequatur. Eius eaque, veniam incidunt non. Dolore repellendus dolor voluptate soluta perferendis, iusto blanditiis voluptatem sit doloremque debitis non incidunt, voluptates aliquid culpa delectus suscipit mollitia nobis velit aperiam cupiditate natus ducimus aspernatur sunt. Provident, voluptas. Voluptate rerum ![Sample Unsplash Image](https://picsum.photos/120/160/?image=756) voluptas molestias dicta quibusdam minima sed rem libero quo cum quasi provident, ad cupiditate laborum doloribus. Fuga molestias minima ipsum ea perspiciatis assumenda, recusandae sapiente illum, ratione quo provident nemo quidem. Tenetur repellat iste soluta a minus delectus, fuga culpa voluptas?
 
+### Image Smaller than content
+
+![A Small Image](https://picsum.photos/600/320/?image=519)
+
 ## Table
 
 | Lorem ipsum | Lorem ipsum | Lorem ipsum |

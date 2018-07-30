@@ -3,7 +3,7 @@
 [xkema.github.io](https://xkema.github.io/)
 
 - `npm start` to serve jekyll at development mode with `--livereload` flag, requires globally installed `jekyll` on local machine
-- `jekyll serve --livereload` also works, use `--drafts` to render with including draft files, use `jekyll build --profile` to run jekyll profiler tio see rendderer timing info
+- `jekyll serve --livereload` also works, use `--drafts` to render with including draft files, use `jekyll build --profile` to run jekyll profiler tio see renderer timing info
 
 ## todo
 
@@ -17,6 +17,7 @@
   - https://github.com/jekyll/jekyll-seo-tag
 - conditional html language tag set
 - `aria-*`
+- get rid of mobile header, it takes a lot of space
 
 ## other
 

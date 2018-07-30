@@ -1,5 +1,7 @@
-// base styles partial
-
+/**
+ * base styles
+ * -----------
+ */
 *,
 *::before,
 *::after {
@@ -49,24 +51,12 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0));
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  max-width: 32rem;
-}
-
-// clearfix utility from bootstrap
-.clearfix {
-  &::after {
-    display: block;
-    content: "";
-    clear: both;
-  }
 }
 
 /**
  * media queries
+ * -------------
  */
-
 @media (max-width: 768px) {
   body {
     font-size: 1.8em;
@@ -78,4 +68,16 @@ hr {
   h4 { font-size: 1.6rem; margin: 2.4rem 0; }
   h5 { font-size: 1.3rem; margin: 2.2rem 0; }
   h6 { font-size: 1.2rem; margin: 2.0rem 0; }
+}
+
+/**
+ * mixins
+ * ------
+ */
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
 }

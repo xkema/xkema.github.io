@@ -20,25 +20,30 @@ $font-family-sans-serif:
  * sizes
  * -----
  */
-
 $site-width: 720px;
+
+$pad-large : 6rem;
+$pad-medium: $pad-large * .5;
+$pad-small : $pad-large * .25;
+
+$ruler-wide  : 64rem;
+$ruler-medium: $ruler-wide * .75;
+$ruler-narrow: $ruler-wide * .5;
+
+/**
+ * fonts
+ * -----
+ */
+$display-header      : 4.5rem;
+$display-header-small: 3.5rem;
 
 /**
  * colors
- * -----
+ * ------
  */
-
 $color-dark  : #000000; // black
 $color-medium: #666666; // mid gray
-$color-light: #eeeeee;  // light gray
-
-// $color-primary       : #195cb5; // blue
-// $color-secondary     : #d3dce5; // gray
-// $color-light         : #fcfdff; // white
-// $color-medium        : #90969c; // dark gray
-// $color-dark          : #1b1c1d; // black
-// $color-primary-light : #3c88d8; // blue lighter
-// $color-primary-bright: #177dea; // blue brighter
+$color-light : #eeeeee; // light gray
 
 // import partials
 @import
