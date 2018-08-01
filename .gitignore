@@ -7,8 +7,5 @@ _site
 # node modules
 node_modules
 
-# drafts (ignore draft folders ?)
-_drafts
-
 # prevents outdated gem versions from github pages
 Gemfile.lock

@@ -48,7 +48,7 @@ Always use block full with images. Theme's max container width is `720px` wide. 
 
 ### Image Inline
 
-Inline images are not supported due to keep markdow syntax simple. If you use one, a `120x160` image in this case, you'll get an unexpectedly cut in half content image as in here. It is possible to use a customized markup syntax to fix but I'm skipping it for now. ![Sample Unsplash Image](https://picsum.photos/120/160/?image=756)
+Inline images are not supported due to keep markdow syntax simple. If you use one, a `120x160` image in this case, you'll get an unexpectedly cut in half content as in here. It is possible to use a customized markup syntax to fix but I'm skipping it for now. ![Sample Unsplash Image](https://picsum.photos/120/160/?image=756)
 
 ### Image Smaller than Site Content
 
