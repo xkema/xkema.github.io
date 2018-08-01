@@ -18,6 +18,7 @@
 - conditional html language tag set
 - `aria-*`
 - get rid of mobile header, it takes a lot of space
+- add citation samples to preview page `Lorem ipsum dolor. [^to-cite] & [^to-cite]: Hola Lola`
 
 ## other
 

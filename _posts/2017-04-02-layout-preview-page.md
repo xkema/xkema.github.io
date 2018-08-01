@@ -4,11 +4,11 @@ title: Layout Preview Page
 excerpt: This is the layout preview page of this jekyll template, with basic HTML elements, styles and etc..
 ---
 
-![A Top Image](https://picsum.photos/1200/480/?image=212)
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quo deserunt odio sint voluptatum reiciendis quae velit saepe harum sequi.
+![A Top Image](https://picsum.photos/720/320/?image=212)
 
 # Heading 1
+
+These are the content heading elements. Skip the first `<h1>` element in post content which is **Layout Preview Page** in this case. It is already filled by `page.title` variable to auto-create post main header. So start with `<h2>`s.
 
 ## Heading 2
 
@@ -20,49 +20,55 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quo deseru
 
 ###### Heading 6
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolores itaque iure, nihil natus modi, explicabo assumenda ab aliquid sequi quae qui fugiat cum nostrum tempore esse labore. Expedita voluptatem consequuntur similique et hic necessitatibus id impedit eos esse in minima, harum, numquam, eveniet adipisci ea reiciendis enim eligendi! Et deleniti accusamus, consequatur alias natus quam libero error corrupti laborum, animi quos accusantium unde soluta illum repudiandae dolorum praesentium sit, earum vero, aspernatur modi! Magni neque sequi, soluta explicabo nihil.
+Do not over use heading elements, keep it simple, I mean who needs an `<h6>` element?
 
 ## Lists
 
 ### Unordered
 
-- Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-- Sunt, praesentium?
-- Consectetur adipisicing elit.
-- Ea rem pariatur ex quae, officiis aliquam enim facere non reprehenderit nemo.
+- Stop organizing jekyll template and write some posts
+- Lorem ipsum dolor sit amet, consectetur adipisicing elit
+- Do not lorem ipsum me!
+- Stop organizing jekyll template and write posts
 
 ### Ordered
 
-1. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-2. Fuga, ullam expedita praesentium nobis.
-3. Maxime, consectetur cupiditate nulla error aliquid.
-4. Inventore fugit sed ipsam dolor.
+1. Find a topic
+2. Do some research
+3. Stop organizing jekyll template and write posts 
+4. Do not forget citations!
 
 ## Media
 
 ### Image Full
 
+Always use block full with images. Theme's max container width is `720px` wide. So minimum content image width is so.
+
 ![Sample Unsplash Image](https://picsum.photos/960/480/?image=479)
 
 ### Image Inline
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae libero quibusdam, velit nostrum molestiae quisquam perspiciatis tenetur perferendis sapiente eos. Ipsam, consequatur. Eius eaque, veniam incidunt non. Dolore repellendus dolor voluptate soluta perferendis, iusto blanditiis voluptatem sit doloremque debitis non incidunt, voluptates aliquid culpa delectus suscipit mollitia nobis velit aperiam cupiditate natus ducimus aspernatur sunt. Provident, voluptas. Voluptate rerum ![Sample Unsplash Image](https://picsum.photos/120/160/?image=756) voluptas molestias dicta quibusdam minima sed rem libero quo cum quasi provident, ad cupiditate laborum doloribus. Fuga molestias minima ipsum ea perspiciatis assumenda, recusandae sapiente illum, ratione quo provident nemo quidem. Tenetur repellat iste soluta a minus delectus, fuga culpa voluptas?
+Inline images are not supported due to keep markdow syntax simple. If you use one, a `120x160` image in this case, you'll get an unexpectedly cut in half content image as in here. It is possible to use a customized markup syntax to fix but I'm skipping it for now. ![Sample Unsplash Image](https://picsum.photos/120/160/?image=756)
 
-### Image Smaller than content
+### Image Smaller than Site Content
 
-![A Small Image](https://picsum.photos/600/320/?image=519)
+You'll get this if you use images smaller than `720px`.
+
+![A Smaller Image](https://picsum.photos/600/320/?image=519)
 
 ## Table
 
-| Lorem ipsum | Lorem ipsum | Lorem ipsum |
-| ----------- | ----------- | ----------- |
-| Lorem ipsum | Lorem ipsum | Lorem ipsum |
-| Lorem ipsum | Lorem ipsum | Lorem ipsum |
-| Lorem ipsum | Lorem ipsum | Lorem ipsum |
+| Pages    | Categories    | Tags                |
+| -------- | ------------- | ------------------- |
+| home     | development   | front-end-developer |
+| about    | tutorials     | best-practises      |
+| contact  | uncategorized | untagged            |
 
 ## Code
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam perspiciatis distinctio excepturi `let hola = "lola";` ea quisquam eligendi voluptas incidunt placeat saepe minima quis tenetur id, hic ipsam nisi aperiam sunt earum quidem dignissimos odio. Rerum illo perferendis natus. Nesciunt itaque, beatae quo!
+Inline code samples are simple inline colored blocks as in `let inlineBlock = 'inline';`
+
+Fenced code blocks are block contents styled as sample below. See [GFM guide](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
 
 ```javascript
 let greetDictator = () => {
@@ -73,26 +79,19 @@ greet("Unde Mocratic");
 
 ## Text Elements
 
-Lorem ipsum **dolor** sit amet, consectetur adipisicing elit. Laboriosam perspiciatis *distinctio excepturi ea quisquam eligendi* voluptas incidunt placeat saepe <u>minima quis</u> tenetur id, hic ipsam nisi aperiam sunt earum [quidem dignissimos](http://quidem.dignissimos) odio. Rerum illo perferendis natus. Nesciunt itaque, beatae quo!
-
-## Buttons
-
-<button>click me!</button>
-
-## TL;DR
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam perspiciatis distinctio quisquam eligendi voluptas incidunt placeat saepe minima quis tenetur id, hic ipsam nisi aperiam sunt earum quidem dignissimos odio. Rerum illo perferendis natus. Nesciunt itaque, beatae quo!
+Here is the old **bold** text, and great *italic*. Links appear like [link to theme repo](https://github.com/xkema/xkema.github.io). Breaked lines starts from just here (with double or more spaces in markdown content):  
+I'm breaked with a `<br>` element.
 
 ## Inline Horizontal Rule
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet recusandae maiores similique dicta natus libero exercitationem. Aliquam tempora ipsam optio est reiciendis ratione, omnis magni tenetur facilis mollitia temporibus incidunt quo praesentium eius quibusdam, sint architecto rerum molestias.
+`<hr>` elements are always block level with some margin above and below.
 
-- - -
+- - - 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore et, corporis praesentium repudiandae nisi veritatis debitis aut, est voluptatibus fugit at ut. Architecto veniam sequi, assumenda consectetur officiis, dolorum alias. Fuga illum velit, fugiat? Eligendi quis ea deleniti fugit quos.
+Use them to create logically separated blocks in content maybe?
 
 ## Blockquotes
 
 Lorem said:
 
-> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam perspiciatis distinctio excepturi ea quisquam eligendi voluptas incidunt placeat saepe minima quis tenetur id, hic ipsam nisi aperiam sunt earum quidem dignissimos odio. Rerum illo perferendis natus. Nesciunt itaque, beatae quo!
+> who cares your content style, headers, code blocks or images, stop organizing jekyll template and write posts.

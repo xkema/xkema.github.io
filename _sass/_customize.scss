@@ -168,8 +168,8 @@ hr {
   }
   .container {
     max-width: 100%;
-    padding-left: $pad-small;
-    padding-right: $pad-small;
+    padding-left: (768px - $site-width)*.5;
+    padding-right: (768px - $site-width)*.5;
   }
   #site-header {
     padding-top: $pad-small;
@@ -180,6 +180,13 @@ hr {
   }
 }
 
+// mobile
+@media (max-width: 720px) {
+  .container {
+    padding-left: (768px - $site-width)*.25;
+    padding-right: (768px - $site-width)*.25;
+  }
+}
 
 
 
