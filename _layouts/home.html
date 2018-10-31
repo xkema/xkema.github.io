@@ -4,7 +4,7 @@ layout: default
 
 <ul class="posts-list">
   {% for post in site.posts %}
-  {% if post.category != 'turkce-yazilar' %}
+  {% if post.category != 'turkce-yazilar' or jekyll.environment == 'development' %}
   <li>
     <article class="post">
       <h1 class="title">
