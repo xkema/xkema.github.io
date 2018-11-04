@@ -92,6 +92,6 @@ Use them to create logically separated blocks in content maybe?
 
 ## Blockquotes
 
-Lorem said:
+Author said:
 
 > who cares your content style, headers, code blocks or images, etc.. stop organizing jekyll template and write posts.
