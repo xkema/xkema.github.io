@@ -8,6 +8,7 @@
 
 ## todo
 
+- minimal theme [https://justjavascript.com](https://justjavascript.com)
 - set up [a custom domain](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
 - add [pagination](https://jekyllrb.com/docs/pagination/)
 - add [sitemap.xml](https://help.github.com/articles/sitemaps-for-github-pages/)
