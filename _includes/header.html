@@ -4,12 +4,6 @@
       <a href="/" title="lorem ipsum">Lorem Ipsum<!-- Kemal Yılmaz --></a>
     </h1>
     <p class="tagline">Lorem ipsum dolor sit amet, consectetur adipisicing elit<!-- Hi, I'm Kemal, a front end developer from Istanbul --></p>
-    <nav>
-      <a href="/" title="back to home page">home</a>
-      {% comment %}
-      <a href="{% link _pages/categories.md %}" title="categories">categories</a>
-      <a href="{% link _pages/tags.md %}" title="tags">tags</a>
-      {% endcomment %}
-    </nav>
+    {% include navigation.html %}
   </div>
 </header>

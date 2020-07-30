@@ -1,17 +1,36 @@
+# Site Settings (Custom variables accessible via {{ site.* }})
 title: xkema.github.io
-email: kemalxyz@gmail.com
-description: welcome to xkema.github.io
+email: kemal.yilmaz@tutanota.com
+description: xkema.github.io
+url: ""
+
+# Other Settings
 permalink: /blog/:title
-include:
-  - _pages
-# baseurl: /blog
 sass:
   style: compressed
+
+# Global Configuration
+disable_disk_cache: true
+ignore_theme_config: true
+include:
+  - _pages
+timezone: Asia/Istanbul
 defaults:
-  - 
+  -
     scope:
       path: ""
       type: "posts"
     values:
+      layout: "post"
       category: "uncategorized"
       tags: "untagged"
+
+# Build Command Options
+show_drafts: true
+future: true
+unpublished: true
+strict_front_matter: true
+baseurl: ""
+
+# Serve Command Options
+livereload: true
