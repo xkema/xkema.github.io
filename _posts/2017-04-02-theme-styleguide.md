@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Layout Preview Page
-excerpt: This is the layout preview page of this jekyll template, with basic HTML elements, styles and etc..
+title: Theme Styleguide
+excerpt: This is the styleguide page of this jekyll template, with basic HTML elements, styles and etc..
 ---
 
 ![A Top Image](https://picsum.photos/720/320/?image=212)
