@@ -7,11 +7,11 @@ layout: default
   {% if post.category != 'turkce-yazilar' or jekyll.environment == 'development' %}
   <li>
     <article class="post">
-      <h1 class="title">
+      <h1 class="post-title">
           <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h1>
-      <time class="date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
-      <p class="excerpt">{{ post.excerpt | strip_html }}</p>
+      <time class="post-date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
+      <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
     </article>
   </li>
   {% endif %}
