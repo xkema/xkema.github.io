@@ -33,4 +33,5 @@ strict_front_matter: true
 baseurl: ""
 
 # Serve Command Options
+host: 0.0.0.0
 livereload: true
