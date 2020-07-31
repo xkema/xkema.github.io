@@ -7,9 +7,11 @@
   --link-hover-color: rgba(65, 105, 225, .85);
   --color-code-background: #faf8f0;
   --color-code-border: #f1ecd9;
-  --color-light-gray: #eee;
+  --color-lighter-gray: #eee;
+  --color-light-gray: #999;
   --color-mid-gray: #666;
   --color-almost-white: whitesmoke;
+  --content-width: 720px;
 }
 
 *,
@@ -23,7 +25,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  background-color: #fff; 
+  background-color: white; 
 }
 
 p {
@@ -72,14 +74,10 @@ ul {
 
 hr {
   margin: 1rem 0;
-  color: inherit;
-  background-color: currentColor;
-  border: 0;
-  opacity: 0.25;
 }
 
 blockquote {
-  border-left: 4px solid var(--color-light-gray);
+  border-left: 4px solid var(--color-lighter-gray);
   margin: 2em 0 2em 1em;
   padding: 0 1em;
   color: var(--color-mid-gray);
@@ -117,7 +115,7 @@ table {
     }
   }
   td, th {
-    border: 1px solid var(--color-light-gray);
+    border: 1px solid var(--color-lighter-gray);
     padding: .25em .5em;
     text-align: left;
   }
@@ -127,7 +125,7 @@ table {
 }
 
  @media (max-width: 768px) {
-  body {
+  .post-content {
     font-size: 1.125rem;
   }
 }
