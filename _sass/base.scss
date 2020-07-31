@@ -1,0 +1,83 @@
+/* base styles for the theme */
+
+html { font-size: 16px; }
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+p { margin: 1em 0; }
+
+h1 { font-size: 2em; margin: 0.67em 0; }
+h2 { font-size: 1.5em; margin: 0.83em 0; }
+h3 { font-size: 1.17em; margin: 1em 0; }
+h4 { font-size: 1em; margin: 1.33em 0; }
+h5 { font-size: 0.83em; margin: 1.67em 0; }
+h6 { font-size: 0.67em; margin: 2.33em 0; }
+
+ul,
+ol { margin: 1em 0 1em 1em; }
+ul { padding-left: 1em; }
+ol { padding-left: 2em; }
+
+hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+blockquote {
+  border-left: 4px solid #eee;
+  margin: 2em 0 2em 1em;
+  padding: 0 1em;
+  color: #666;
+  font-style: italic;
+}
+
+pre {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  code {
+    display: block;
+    padding: 1em;
+    margin: 1em 0;
+    overflow-x: scroll;
+  }
+}
+
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background-color: #faf8f0;
+  border: 1px solid #f1ecd9;
+  font-size: 87.5%;
+  border-radius: 3px;
+  padding: 1px 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  tbody {
+    tr {
+      &:nth-child(odd) { background-color: whitesmoke; }
+    }
+  }
+  td, th {
+    border: 1px solid #eee;
+    padding: .25em .5em;
+    text-align: left;
+  }
+  th { padding: .5em .5em; }
+}
+
+ @media (max-width: 768px) {
+  body { font-size: 1.125em; }
+
+  h1 { margin: 0.5em 0; }
+  h2 { margin: 0.67em 0; }
+  h3 { margin: 0.83em 0; }
+  h4 { margin: 1em 0; }
+  h5 { margin: 1.33em 0; }
+  h6 { margin: 1.67em 0; }
+
+  code { font-size: 77.77777777777777%; }
+}
