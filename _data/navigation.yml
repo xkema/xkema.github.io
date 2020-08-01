@@ -1,9 +1,9 @@
-# - name: home
-#   link: /
-#   title: Home
-- name: about
+- name: Home
+  link: /
+  title: Home
+- name: About
   link: /about
   title: About
-- name: credits
+- name: Credits
   link: /credits
   title: Credits

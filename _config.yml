@@ -5,7 +5,7 @@ description: xkema.github.io
 url: ""
 
 # Other Settings
-permalink: /:title
+permalink: /:year/:title
 sass:
   style: compressed
 
