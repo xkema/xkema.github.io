@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="container">
-    <a href="https://github.com/xkema" title="Github Profile">github</a>
-    <a href="https://twitter.com/xkema" title="Twitter Profile">twitter</a>
-    <a href="https://www.linkedin.com/in/kemal-y%C4%B1lmaz-79ab2835" title="LinkedIn Profile">linkedin</a>
+    {% for item in site.data["navigation-footer"] %}
+      <a href="{{ item.link }}" title="{{ item.title }}">{{ item.name }}</a>
+    {% endfor %}
   </div>
 </footer>

@@ -4,10 +4,10 @@
   "description": "xkema.github.io",
   "main": "index.js",
   "scripts": {
-    "start": "JEKYLL_ENV=development bundle exec jekyll serve",
-    "build": "JEKYLL_ENV=production bundle exec jekyll build",
+    "start": "JEKYLL_ENV=development bundle exec jekyll serve --config _config.yml,_config_development.yml",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build --config _config.yml",
     "clean": "bundle exec jekyll clean",
-    "start:win": "set JEKYLL_ENV=development & jekyll serve --livereload --drafts"
+    "start:win": "set JEKYLL_ENV=development & jekyll serve --config _config.yml,_config_development.yml"
   },
   "repository": {
     "type": "git",

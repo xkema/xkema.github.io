@@ -1,0 +1,8 @@
+# Build Command Options
+show_drafts: true
+future: true
+unpublished: true
+
+# Serve Command Options
+host: 0.0.0.0
+livereload: true

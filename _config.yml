@@ -5,7 +5,7 @@ description: xkema.github.io
 url: ""
 
 # Other Settings
-permalink: /blog/:title
+permalink: /:title
 sass:
   style: compressed
 
@@ -26,12 +26,5 @@ defaults:
       tags: "untagged"
 
 # Build Command Options
-show_drafts: true
-future: true
-unpublished: true
 strict_front_matter: true
 baseurl: ""
-
-# Serve Command Options
-host: 0.0.0.0
-livereload: true
