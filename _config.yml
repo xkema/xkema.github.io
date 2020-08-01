@@ -12,6 +12,10 @@ sass:
 # Global Configuration
 disable_disk_cache: true
 ignore_theme_config: true
+exclude:
+  - package.json
+  - package-lock.json
+  - README.md
 include:
   - _pages
 timezone: Asia/Istanbul
