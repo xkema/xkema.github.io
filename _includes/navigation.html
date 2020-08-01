@@ -1,18 +1,23 @@
 <nav class="site-nav">
-  <div class="nav-name">
-    <h1>
-      <a href="/" title="Kemal Yılmaz">Kemal Yılmaz</a>
-    </h1>
-    <p class="tagline">just another front end developer blog.</p>
+  <div class="nav-start">
+    <div class="nav-name">
+      <h1>
+        <a href="/" title="Kemal Yılmaz">Kemal Yılmaz</a>
+      </h1>
+      <p class="tagline">just another front end developer blog.</p>
+    </div>
+    <div class="nav-main">
+      {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}current{% endif %}">
+        {{ item.name }}
+      </a>
+      {% endfor %}
+    </div>
   </div>
-  <div class="nav-main">
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}current{% endif %}">
-      {{ item.name }}
-    </a>
-    {% endfor %}
-  </div>
-  <div class="nav-toggle">
-    <button>menu</button>
+  <div class="nav-end">
+    <button class="nav-toggle">
+      <svg xmlns="http://www.w3.org/2000/svg" class="burger" viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" class="close" viewBox="0 0 16 16" width="16" height="16" fill="currentColor"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+    </button>
   </div>
 </nav>

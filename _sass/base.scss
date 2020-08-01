@@ -125,7 +125,8 @@ table {
 }
 
  @media (max-width: 768px) {
-  .post-content {
+  .post-content,
+  .post-excerpt {
     font-size: 1.125rem;
   }
 }
