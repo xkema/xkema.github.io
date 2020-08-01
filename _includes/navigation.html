@@ -1,7 +1,18 @@
 <nav class="site-nav">
-  {% for item in site.data.navigation %}
+  <div class="nav-name">
+    <h1>
+      <a href="/" title="Kemal Yılmaz">Kemal Yılmaz</a>
+    </h1>
+    <p class="tagline">just another front end developer blog.</p>
+  </div>
+  <div class="nav-main">
+    {% for item in site.data.navigation %}
     <a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}current{% endif %}">
       {{ item.name }}
     </a>
-  {% endfor %}
+    {% endfor %}
+  </div>
+  <div class="nav-toggle">
+    <button>menu</button>
+  </div>
 </nav>
