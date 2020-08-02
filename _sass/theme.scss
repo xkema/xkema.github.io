@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  padding: 1rem 0;
+  padding: 1.5rem 0 1rem;
 }
 
 hr {
@@ -122,6 +122,9 @@ hr {
     display: block;
     margin-bottom: 1em;
   }
+  .post-title {
+    font-size: 1.5em;
+  }
 }
 
 // --- post
@@ -163,6 +166,13 @@ hr {
   }
 }
 
+// --- page
+
+// .page {
+//   .page-title {}
+//   .page-content {}
+// }
+
 // --- utilities
 
 .clearfix {
@@ -174,6 +184,10 @@ hr {
 }
 
 @media (max-width: 768px) {
+  .post-content,
+  .page-content {
+    font-size: 1.125rem;
+  }
   .site-nav {
     .nav-main {
       display: none;
