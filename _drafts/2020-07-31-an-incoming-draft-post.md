@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An incoming draft post!
+title: An Incoming Draft Post!
 excerpt: This is an expert for a shiny new future post.
 tags:
   - draft

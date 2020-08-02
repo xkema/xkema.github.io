@@ -1,12 +1,15 @@
 <footer class="site-footer">
   <div class="footer-start">
-    2020
+    <small>2020</small>
   </div>
   <div class="footer-end">
     {% if site.data["navigation-footer"].size > 0 %}
-    &nbsp;| social links &raquo;
+    &nbsp;&bull; social links &bull;&nbsp;
     {%- for item in site.data["navigation-footer"] -%}
-    <a href="{{ item.link }}" title="{{ item.title }}">{{ item.name }}</a>
+    <a href="{{ item.link }}" title="{{ item.title }}">
+      {{ item.name }}
+    </a>
+    {% if forloop.last != true %} | {% endif %}
     {% endfor %}
     {% endif %}
   </div>

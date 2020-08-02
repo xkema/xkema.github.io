@@ -99,7 +99,6 @@ hr {
   align-items: center;
   a {
     display: inline-block;
-    padding: 2px 4px;
     text-decoration: none;
   }
   // .footer-start {}
@@ -148,7 +147,7 @@ hr {
       font-size: 75%;
       padding: 1px 8px;
       background-color: black;
-      color: whitesmoke;
+      color: var(--color-almost-white);
       margin-right: 4px;
       text-decoration: none;
     }
