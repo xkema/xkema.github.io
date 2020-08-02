@@ -1,6 +1,5 @@
 ---
-layout: post
-title: Theme Styleguide
+title: Theme styleguide
 excerpt: This is the styleguide page of this jekyll template, with basic HTML elements, styles and etc..
 tags:
   - theme-styleguide
@@ -10,7 +9,7 @@ tags:
 
 # Heading 1
 
-These are the content heading elements. Skip the first `<h1>` element in post content which is **Layout Preview Page** in this case. It is already filled by `page.title` variable to auto-create post main header. So start with `<h2>`s.
+These are the content heading elements. Skip the first `<h1>` element in post content which is **Theme styleguide** in this case. It is already filled by `page.title` variable to auto-create post main header. So start with `<h2>`s.
 
 ## Heading 2
 

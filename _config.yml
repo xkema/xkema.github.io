@@ -23,12 +23,26 @@ timezone: Asia/Istanbul
 defaults:
   -
     scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       layout: "post"
       category: "uncategorized"
       tags: "untagged"
+  -
+    scope:
+      path: "_drafts"
+      type: "posts"
+    values:
+      layout: "post"
+      category: "uncategorized"
+      tags: "untagged draft"
+  -
+    scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "page"
 
 # Build Command Options
 strict_front_matter: true
