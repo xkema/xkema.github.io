@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: frontpage
 title: hola lola
 permalink: /
 ---
