@@ -1,7 +1,13 @@
 <footer class="site-footer">
-  <div class="container">
-    {% for item in site.data["navigation-footer"] %}
-      <a href="{{ item.link }}" title="{{ item.title }}">{{ item.name }}</a>
+  <div class="footer-start">
+    2020
+  </div>
+  <div class="footer-end">
+    {% if site.data["navigation-footer"].size > 0 %}
+    &nbsp;| social links &raquo;
+    {%- for item in site.data["navigation-footer"] -%}
+    <a href="{{ item.link }}" title="{{ item.title }}">{{ item.name }}</a>
     {% endfor %}
+    {% endif %}
   </div>
 </footer>
