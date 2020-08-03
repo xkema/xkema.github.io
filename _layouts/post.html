@@ -8,7 +8,7 @@ layout: default
   {% if page.tags.size > 0 %}
   <div class="post-tags clearfix">
     {% for tag in page.tags %}
-    <span class="post-tag">{{ tag }}</span>
+    <span class="post-tag">{{ tag | slugify: "latin" }}</span>
     {% endfor %}
   </div>
   {% endif %}
