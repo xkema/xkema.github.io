@@ -96,3 +96,5 @@ Use them to create logically separated blocks in content maybe?
 Author said:
 
 > who cares your content style, headers, code blocks or images, etc.. stop organizing jekyll template and write posts.
+
+And this is the end! Or not maybe?

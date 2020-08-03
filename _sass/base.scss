@@ -30,7 +30,7 @@ body {
 
 p {
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 1.5rem;
 }
 
 a {
@@ -48,7 +48,7 @@ h4,
 h5, 
 h6 {
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 1.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -73,7 +73,7 @@ ul {
 }
 
 hr {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 blockquote {
@@ -88,8 +88,8 @@ pre {
   font-family: var(--font-stack-monospace);
   code {
     display: block;
-    padding: 1em;
-    margin: 1em 0;
+    padding: 1rem;
+    margin: 1.5rem 0;
     overflow-x: scroll;
   }
 }
@@ -108,7 +108,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   margin-top: 0;
-  margin-bottom: .5rem;
+  margin-bottom: 1.5rem;
   tbody {
     tr {
       &:nth-child(odd) {
