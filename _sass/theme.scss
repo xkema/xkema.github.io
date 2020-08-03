@@ -191,10 +191,17 @@ hr {
 
 // --- page
 
-// .page {
-//   .page-title {}
-//   .page-content {}
-// }
+.page {
+  // .page-title {}
+  .page-content {
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
 
 // --- utilities
 
