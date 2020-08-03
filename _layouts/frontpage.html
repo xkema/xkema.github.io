@@ -11,7 +11,10 @@ layout: default
       <h1 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h1>
-      <p class="post-excerpt">{{ post.excerpt | strip_html }}</p>
+      {% assign excerpt_stripped = post.excerpt | strip | strip_html %}
+      <p class="post-excerpt">
+        {% if excerpt_stripped != "" %}{{ excerpt_stripped | truncatewords: 50 }}{% else %}{{ post.title }}{% endif %}
+      </p>      
     </article>
   </li>
   {% endif %}
