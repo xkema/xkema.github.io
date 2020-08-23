@@ -1,0 +1,25 @@
+GIMP Palette
+Name: color-palette-xkema-github-io.gpl
+# 
+# Custom palette for "xkema.github.io"
+# 
+  0   0   0	   black (#000000)
+255 255 255    white (#ffffff)
+255 250 250	   snow (#fffafa)
+248 248 255	   ghostwhite (#f8f8ff)
+245 245 245	   whitesmoke (#f5f5f5)
+211 211 211	   lightgray (#d3d3d3)
+128 128 128	   gray (#808080)
+47  79  79	   darkslategray (#2f4f4f)
+240 248 255	   aliceblue (#f0f8ff)
+ 70 130 180	   steelblue (#4682b4)
+65 105 225	   royalblue (#4169e1)
+135 206 235	   skyblue (#87ceeb)
+25  25 112	   midnightblue (#191970)
+75   0 130	   indigo (#4b0082)
+50 205  50	   limegreen (#32cd32)
+255 250 205	   lemonchiffon (#fffacd)
+255 215   0	   gold (#ffd700)
+255 228 225	   mistyrose (#ffe4e1)
+255 192 203	   pink (#ffc0cb)
+255  20 147	   deeppink (#ff1493)
