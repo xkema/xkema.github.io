@@ -61,6 +61,7 @@ hr {
       font-style: italic;
       &.current {
         font-style: normal;
+        // text-decoration: underline;
       }
     }
   }
@@ -216,6 +217,17 @@ hr {
   .page-content,
   .post-excerpt {
     font-size: 1.125rem;
+  }
+
+  .post-content,
+  .page-content {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+    p {
+      overflow-wrap: break-word;
+    }
   }
 
   .site-nav {

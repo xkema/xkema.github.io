@@ -7,8 +7,23 @@ Developer notes and todos for the blog.
 
 ## todo
 
+- github issues as contact
+- add front matter object for `blog-demo-*` repositories
 - add deprecation note for post older than a year
 - add citation samples to preview page `Lorem ipsum dolor. [^to-cite] & [^to-cite]: Hola Lola`
+- try octicons as jekyll plugin
+
+## posts
+
+- gpt background refreshes demo
+- intercepting-browser-network-requests, chrome-interceptor
+  - charles
+  - safari inline
+  - request blocking
+  - not in the store, safety and degoogle
+- gpt-s-built-in-lazyload-support
+- gpt-s-ad-viewability-metric
+
 
 ## other
 
