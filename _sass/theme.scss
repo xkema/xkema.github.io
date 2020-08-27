@@ -190,6 +190,20 @@ hr {
   }
 }
 
+// enable to activate click & expand content images
+// .post-content {
+//   .expanded-post-image {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     img {
+//       max-width: unset;
+//       width: calc( 100vw - 20rem );
+//       min-width: 100%;
+//     }
+//   }
+// }
+
 // --- page
 
 .page {
@@ -256,6 +270,11 @@ hr {
   }
 
   .container {
-    padding: 0 .5rem;
+    padding: 0 1rem;
+  }
+
+  blockquote {
+    margin: 1rem 0 1rem 1px;
+    padding: 0 1rem;
   }
 }

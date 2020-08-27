@@ -16,3 +16,15 @@ document.addEventListener('DOMContentLoaded', () => {
   //   }
   // });
 });
+
+// enable to activate click & expand content images
+// window.addEventListener('load', () => {
+//   const postContentImages = document.querySelectorAll('.post .post-content img');
+//   postContentImages.forEach((imageElement) => {
+//     imageElement.addEventListener('click', (event) => {
+//       if('P' === event.target.parentElement.tagName) {
+//         event.target.parentElement.classList.toggle('expanded-post-image');
+//       }
+//     });
+//   });
+// });

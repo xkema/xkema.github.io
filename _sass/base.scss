@@ -64,7 +64,7 @@ small {
 
 ol,
 ul {
-  margin-top: 0 0 1rem;
+  margin: 0 0 1rem;
   padding-left: 2rem;
   ol,
   ul {
@@ -78,7 +78,7 @@ hr {
 
 blockquote {
   border-left: 4px solid var(--color-lighter-gray);
-  margin: 2em 0 2em 1em;
+  margin: 2em 0 2em 1px;
   padding: 0 1em;
   color: var(--color-mid-gray);
   font-style: italic;
