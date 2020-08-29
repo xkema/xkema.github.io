@@ -1,9 +1,15 @@
 ---
-title: Developer notes for the blog
+title: Developer Notes for the Blog
 excerpt: Notes and todos for myself about blog theme, posts, styles, ...
 ---
 
 Developer notes and todos for the blog.
+
+This is an always exists draft post. Drafts are only listed on development environment. This is a also draft post sample for future posts.
+
+## styleguide
+
+- use lowercase space separated words for tags, like "hola lola" (will be slugified with latin option)
 
 ## todo
 
