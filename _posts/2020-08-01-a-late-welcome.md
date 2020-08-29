@@ -5,7 +5,7 @@ tags:
   - welcome
 ---
 
-After postponing it a decade or more, here is my first post. I've always wanted to share free and valuable content with others. Blogging was the modern way to do it so, but I couldn't manage to decide what is valuable or not. It was the main obstacle for me to have a public blog. So I decided to change this view to "*please just share something and keep the evaluation to the reader*" view.
+After postponing it for a decade or more, here is my first blog post. I've always wanted to share free and valuable content with others. Blogging was the modern way to do it so, but I couldn't manage to decide what is valuable or not. It was the main obstacle for me to have a public blog. So I decided to change this view to "*please just share something and keep the evaluation to the reader*" view.
 
 I still don't feel that I've much on my bag at the moment so I'll start with the most recent. I've been working for a digital publisher for almost four years. Digital advertisement and working with the salespeople wasn't one of the items on my bucket list. But somehow I've ended up with them. For the starters, that'll be on my plate.
 
