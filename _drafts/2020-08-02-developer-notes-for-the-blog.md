@@ -7,6 +7,7 @@ Developer notes and todos for the blog.
 
 ## todo
 
+- check assets folder output
 - github issues as contact
 - add front matter object for `blog-demo-*` repositories
 - add deprecation note for post older than a year
