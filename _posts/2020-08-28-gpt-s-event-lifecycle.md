@@ -11,7 +11,7 @@ Google Publisher Tag (**GPT**) is a JavaScript library to show digital ads contr
 
 Switching back to technical mode here.
 
-After playing around for a while I decided to create a [demo page](https://xkema.github.io/gpt-s-event-lifecycle/ "A demo page to observe GPT's (Google Publisher Tag) slot lifecycle events.") to observe each GPT event and GPT option that change event behaviour. As I add extra features one by one, demo page gone bigger than I expected. So I split it up to a demo page and a blog post which is you're reading right now.
+After playing around for a while, I decided to create a [demo page](https://xkema.github.io/blog-demo-gpt-s-event-lifecycle/ "A demo page to observe GPT's (Google Publisher Tag) slot lifecycle events.") to observe each GPT event and GPT option that change event behaviour. As I add extra features one by one, demo page gone bigger than I expected. So I split it up to a demo page and a blog post which is you're reading right now.
 
 > To make some terms clear; **ad tag**s are a bunch of `html` tags that help to define and show ads on your web page, **ad slot**s are the representations of actual ads defined in your network. We use **ad tag**s to define **ad slot**s.
 >
