@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.draft %}
+<div class="notification warning">This is a <b>draft</b> post, It'll only be visible on development environment.</div>
+{% elsif page.published == false %}
+<div class="notification warning">This post <b>unpublished</b>. It'll only be visible on development environment. Change front matter <code>published: false</code> flag to true to publish it.</div>
+{% endif %}
+
 <article class="post">
   <time class="post-date" datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
   <h1 class="post-title">{{ page.title }}</h1>

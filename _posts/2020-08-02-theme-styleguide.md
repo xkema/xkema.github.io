@@ -1,4 +1,5 @@
 ---
+published: false
 title: Theme Styleguide
 excerpt: This is the styleguide page of this jekyll template, with basic HTML elements, styles and etc..
 tags:

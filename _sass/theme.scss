@@ -226,6 +226,23 @@ hr {
   }
 }
 
+// --- components
+
+.notification {
+  padding: 2rem 2rem;
+  border-radius: 0.25rem;
+  margin-bottom: 2rem;
+  &.warning {
+    background-color: lemonchiffon;
+    border: 1px solid darkkhaki;
+  }
+  &.error {
+    background-color: mistyrose;
+    border: 1px solid pink;
+  }  
+}
+
+
 @media (max-width: 768px) {
   .post-content,
   .page-content,
