@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
   {% if post.category != 'turkce-yazilar' or jekyll.environment == 'development' %}
   <li>
-    <article class="post">
+    <article class="post{% if post.draft %} draft{% elsif post.published == false %} unpublished{% endif %}">
       <time class="post-date" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
       <h1 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
@@ -14,7 +14,7 @@ layout: default
       {% assign excerpt_stripped = post.excerpt | strip | strip_html %}
       <p class="post-excerpt">
         {% if excerpt_stripped != "" %}{{ excerpt_stripped | truncatewords: 50 }}{% else %}{{ post.title }}{% endif %}
-      </p>      
+      </p>
     </article>
   </li>
   {% endif %}
