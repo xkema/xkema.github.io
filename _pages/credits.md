@@ -7,5 +7,5 @@ This site is built with GitHub Pages and Jekyll. Here is the list of tools I use
 
 - Octicons
 - Inkscape (for SVGs)
-- GIMP
+- GIMP (to test the limits of patience)
 - MDN :)

@@ -216,6 +216,28 @@ hr {
       height: auto;
     }
   }
+  // auto-generated anchors for headers
+  .heading-anchor {
+    .heading-anchor-link {
+      background-color: transparent;
+      float: left;
+      text-decoration: none;
+      padding: 0 5px;
+      line-height: 1;
+      margin-left: -26px; // 16px svg width + 2 side padding
+      svg {
+        vertical-align: middle;
+        visibility: hidden;
+      }
+    }
+    &:hover {
+      .heading-anchor-link {
+        svg {
+          visibility: visible;
+        }
+      }
+    }
+  }
 }
 
 // --- page

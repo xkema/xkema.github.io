@@ -9,7 +9,6 @@
     <title>{{ site.title  | default: 'xkema.github.io'  }}</title>
     <link rel="shortcut icon" href="{{ '/assets/img/favicon-64.png' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </head>
   <body class="{{ page.layout }}">
     {% include header.html %}
@@ -19,5 +18,6 @@
       </div>
     </main>
     {% include footer.html %}
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </body>
 </html>
