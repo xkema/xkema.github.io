@@ -6,7 +6,7 @@ tags:
   - theme styleguide
 ---
 
-![A Top Image](https://picsum.photos/720/320/?image=212)
+![A Top Image](https://picsum.photos/720/320/?image=212 "A Top Image")
 
 # Heading 1
 

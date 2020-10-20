@@ -10,12 +10,23 @@ This is an always exists draft post. Drafts are only listed on development envir
 
 ## styleguide
 
-- use lowercase, space separated words for tags, like "hola lola" (will be slugified with latin option "hola-lola")
-- each demo page goes into their own repo and optionally uses this simple css
-- demo repos use "blog-demo-{{post_title}}" format for their name
+- use lowercase [@todo change lowecase requirement], space separated words for tags, like "hola lola" (will be slugified with latin option "hola-lola")
+- each demo page goes into their own repo
+- demo repos use "blog-demo-{{post_title | slugify: "latin" }}" format for their name
+- post content (draft, all items are optional)
+  - excerpt (from front matter excerpt, first gray box)
+  - intro (short intro text, an outline for the post)
+  - background story
+  - terms
+  - story
+  - end note
+  - links
 
 ## blog todo
 
+- https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth
+- https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering
+- add notification section to front matter to show content notifications for out-of-post-content messages like draft/unpublished post messages
 - add :EMOJICODE: support
 - add strikeouts to theme styleguide
 - add styles for gfm task lists
@@ -28,11 +39,17 @@ This is an always exists draft post. Drafts are only listed on development envir
 
 ## drafts
 
-- amp vs mobile on tr
+- some extra metrics to fight with sales
+- amp vs mobile on tr detail pages, do we really need it in tr area?
+- i was a fan of google products till i listened to shoushanne???
 
 ## post notes & todo
 
 Notes and todo on `draft`, `unpublished` and `released` posts.
+
+### kuzguncuk
+
+- yahudiler kuzguncuktan "büyük yangın?" dan sonra yeldeğirmenine göçüyor
 
 ### ad impressions and viewability
 
@@ -40,13 +57,17 @@ Notes and todo on `draft`, `unpublished` and `released` posts.
   - lazyload
   - gpt background refreshes demo
   - [Monitor Active View measurement](https://support.google.com/admanager/answer/6123557?hl=en&ref_topic=7506202)
+  - correlation with impressions and viewability
 
-### intercepting-browser-network-requests, chrome-interceptor
+### intercepting-browser-network-requests, missofis-request-interceptor
 
-- charles
-- safari inline
-- request blocking
-- not in the store, safety and degoogle
+- avoid long matchers
+- multiple matches will use the first `to`
+- it is simple becasue works only form js and css
+  - there are tons of advanced versions
+- https://cssnano.co/playground
+- disable chrome collect errors
+- restricted to http and https
 
 ### gpt-s-event-lifecycle
 
