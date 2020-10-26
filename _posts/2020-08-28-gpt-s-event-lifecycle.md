@@ -1,6 +1,6 @@
 ---
 title: GPT's Event Lifecycle
-excerpt: From requesting ads to counting them as impressions, Google Publisher Tag (GPT) Library triggers a set of events to inform page about current display ad slot statuses. This page is a preliminary reading for the demo page I build for this event lifecycle.
+excerpt: From requesting ads to counting them as impressions, Google Publisher Tag (GPT) Library triggers a set of events to inform page about current display ad slot statuses. This page is a preliminary reading for the demo page I built for this event lifecycle.
 tags:
   - gpt
   - gpt's event lifecycle

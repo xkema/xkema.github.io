@@ -1,6 +1,8 @@
 GIMP Palette
 Name: color-palette-xkema-github-io.gpl
 # 
+# "Inkcape > Preferences > System > User Palette"
+# 
 # Custom palette for "xkema.github.io"
 # 
   0   0   0	   black (#000000)
@@ -20,6 +22,7 @@ Name: color-palette-xkema-github-io.gpl
 50 205  50	   limegreen (#32cd32)
 255 250 205	   lemonchiffon (#fffacd)
 255 215   0	   gold (#ffd700)
+230 230 250    lavender (#e6e6fa)
 255 228 225	   mistyrose (#ffe4e1)
 255 192 203	   pink (#ffc0cb)
 255  20 147	   deeppink (#ff1493)
