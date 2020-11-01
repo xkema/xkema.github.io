@@ -42,6 +42,7 @@ This is an always exists draft post. Drafts are only listed on development envir
 - some extra metrics to fight with sales
 - amp vs mobile on tr detail pages, do we really need it in tr area?
 - i was a fan of google products till i listened to shoushanne???
+- padisahim cok yasa: yazilim gelistiriciler 3e ayrilir, strtw, sekerp-kib, kolpacino. iyi veya kotu ayrimi degil salakca bir kategorizsayon denemesi
 
 ## post notes & todo
 

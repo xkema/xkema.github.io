@@ -294,6 +294,11 @@ hr {
     p {
       overflow-wrap: break-word;
     }
+    table {
+      font-size: 1rem;
+      display: block; // make tables overflow-able
+      overflow: auto;
+    }
   }
 
   .site-nav {
