@@ -48,6 +48,44 @@ This is an always exists draft post. Drafts are only listed on development envir
 
 Notes and todo on `draft`, `unpublished` and `released` posts.
 
+### dom nodes are expensive
+
+- things are countable so count them
+- waterconsumption and energy efficiency as a legal metric.
+- 2 different querySelector and querySelectorAll
+- initial render recurreng renders for react
+- textContent recreates node while nodeValue='sth' keeps older text node
+- commitTextUpdate
+- comment removal reduces page weight https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Author_fast-loading_HTML_pages
+- It might be an unused feature but ReactDOM Framework one of the popular framwork that use this propery to watch changes.
+- DOM Traversal is is a never ending topic.
+- So DOM is live do not keep a lot of comments in yout HTML, remove comments, compress HTML.
+- console.logs, emty spaces comments might be handy for all but they're also evil
+- head to the theguardian home page?, Array.from(document.head.childNodes).filter(child => child.nodeType === Node.COMMENT_NODE).map(child => child.textContent.trim())[0];
+- 
+- https://addyosmani.com/blog/taming-the-unicorn-easing-javascript-memory-profiling-in-devtools/
+- https://developers.google.com/web/tools/chrome-devtools/memory-problems
+- https://developer.mozilla.org/en-US/docs/Tools/Memory/Tree_Map_view
+- https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Whitespace
+- https://www.youtube.com/watch?v=_MAD4Oly9yg&ab_channel=ReactRally
+- https://www.youtube.com/watch?v=ZCuYPiUIONs&ab_channel=FacebookDevelopers
+- https://developer.mozilla.org/en-US/docs/Web/API/Document/createComment
+- https://reactjs.org/docs/codebase-overview.html#reconcilers
+- https://reactjs.org/docs/implementation-notes.html
+- https://reactjs.org/docs/faq-internals.html#what-is-react-fiber
+- https://github.com/facebook/react/blob/master/CHANGELOG.md#1500-april-7-2016
+- https://blog.ag-grid.com/inside-fiber-an-in-depth-overview-of-the-new-reconciliation-algorithm-in-react/
+- https://github.com/acdlite/react-fiber-architecture
+- https://reactjs.org/docs/implementation-notes.html
+- https://reactjs.org/docs/codebase-overview.html#reconcilers
+- https://reactjs.org/docs/reconciliation.html
+- https://reactjs.org/docs/optimizing-performance.html#avoid-reconciliation
+- https://reactjs.org/docs/codebase-overview.html#reconcilers
+- https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class
+- https://reactjs.org/docs/rendering-elements.html
+- https://web.dev/dom-size/
+- https://web.dev/lighthouse-performance/
+
 ### kuzguncuk
 
 - yahudiler kuzguncuktan "büyük yangın?" dan sonra yeldeğirmenine göçüyor
