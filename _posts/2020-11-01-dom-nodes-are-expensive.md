@@ -39,7 +39,7 @@ The second one was a performance optimization problem that one of my colleagues 
 
 These two events made me dug deeper and search some more about HTML comments. Here we start with the first part.
 
-**Next**: [Can We Uncomment HTML Comments with JavaScript?](https://xkema.github.io/2020/can-we-uncomment-html-comments-with-javascript "Part 1 - Can We Uncomment HTML Comments with JavaScript?")
+**Next**: [Part 1 - Can We Uncomment HTML Comments with JavaScript?](https://xkema.github.io/2020/can-we-uncomment-html-comments-with-javascript "Part 1 - Can We Uncomment HTML Comments with JavaScript?")
 
 ## A Wrap Up for the Series
 
