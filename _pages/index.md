@@ -1,5 +1,5 @@
 ---
 layout: frontpage
-title: hola lola
+title: Kemal Yılmaz - Blog
 permalink: /
 ---

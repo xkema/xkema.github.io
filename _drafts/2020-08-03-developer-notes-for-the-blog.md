@@ -87,6 +87,59 @@ Notes and todo on `draft`, `unpublished` and `released` posts.
 - https://web.dev/dom-size/
 - https://web.dev/lighthouse-performance/
 
+### submitting extensions
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
+- [Workspaces](https://developers.google.com/web/tools/chrome-devtools/workspaces/)
+- [Local Overrides](https://developers.google.com/web/updates/2018/01/devtools#overrides)
+https://webkit.org/web-inspector/local-overrides/
+
+## Publishing Extensions into Stores
+
+- firefox update to 1.1.0 was nearly immediate
+  - tell isertAdjacentHTML warn
+- chrome re-review and update took half a day
+
+- review process slowed down because of covid for firefox
+
+- chrome store notes
+  - Ready to publish before Oct 25, 2020, 9:59:59 AM
+    - publish, cancel publish, unpublish optison available
+    - publish button responds your publish request submitted >> status turns published - public
+    - and listed right after and available on search results
+    - An error has occurred - There was a problem loading the item. Please refresh the page and try again.
+      -detail page says in incognito
+  - uploaded images are optimized
+  - fill a large publish form
+  - after submitting for for review it was ready to publish (i selected publush only the developers and me)
+  - selecting developers auto includes your eamail
+  - i clicked pub;ish and it sait ready
+  - after selecting ok, it published section filled
+  - header is clickable now but accessible only by me
+  - dev publish was immediate
+  - before review you can publish/unpublish to limited developers
+    - you need to add your emal as a tester account to load extension, even if it is your webstore email it is required
+    - some docs says it is but it is not
+  - after testing it with test account i published it for public
+  - Because of the following issue, your extension may require an in-depth review: - Broad Host Permissions
+  - Pending Review Your item has been submitted and is currently going through a compliance review. This review may take up to a few business days to complete. Please check the developer dashboard for the most current state of your item’s review. Note: Unpublishing your item will not cancel the review. If you unpublish, you won’t be able to re-submit your item until the current review has been
+  - you can't edit package or store option (whhy cant i publish: Unable to publish. Complete the points below to publish your item. Remember to Save Draft when you are done. This item is locked and cannot be edited or published.)
+  - submitted at Sep 21, 12:00
+- firefox store notes
+  - register
+  - submıt zip for validation
+    - correct vidation warnings
+    - add version notes
+  - fill another long submission form (hope i dont do it for updates)
+  - some fileds are collected from manifest json meta
+  - add reviewwers note and submit
+  - after validation options 
+    - Manage Listing (edit description, icons, screenshots, details, ...) (review status) Queue Position: 67 of 67 approved Sep 22 12:00
+    - Edit version 1.0.1 (version info, release notes, compability selection)
+    - Go to My Submission (see your add on, click add on and go detai;s, view product page: This is not a public listing. You are only seeing it because of elevated permissions.)
+      - Download failed. Please check your connection. add to firefox responds with this
+
 ### kuzguncuk
 
 - yahudiler kuzguncuktan "büyük yangın?" dan sonra yeldeğirmenine göçüyor

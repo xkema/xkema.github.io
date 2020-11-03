@@ -1,6 +1,6 @@
 # xkema.github.io
 
-Jekyll theme for [xkema.github.io](https://xkema.github.io/)
+Jekyll site for [xkema.github.io](https://xkema.github.io/)
 
 ## intro
 
