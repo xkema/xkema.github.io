@@ -46,17 +46,17 @@ Do not over use heading elements, keep it simple, I mean who needs an `<h6>` ele
 
 Always use block full with images. Theme's max container width is `720px` wide. So minimum content image width is so.
 
-![Sample Unsplash Image](https://picsum.photos/960/480/?image=479)
+![Sample Unsplash Image](https://picsum.photos/960/480/?image=479 "Sample Unsplash Image")
 
 ### Image Inline
 
-Inline images are not supported due to keep markdow syntax simple. If you use one, a `120x160` image in this case, you'll get an unexpectedly cut in half content as in here. It is possible to use a customized markup syntax to fix but I'm skipping it for now. ![Sample Unsplash Image](https://picsum.photos/120/160/?image=756)
+Inline images are not supported due to keep markdow syntax simple. If you use one, a `120x160` image in this case, you'll get an unexpectedly cut in half content as in here. It is possible to use a customized markup syntax to fix but I'm skipping it for now. ![Sample Unsplash Image](https://picsum.photos/120/160/?image=756 "Sample Unsplash Image")
 
 ### Image Smaller than Site Content
 
 You'll get this if you use images smaller than `720px`.
 
-![A Smaller Image](https://picsum.photos/600/320/?image=519)
+![A Smaller Image](https://picsum.photos/600/320/?image=519 "A Smaller Image")
 
 ## Table
 
@@ -70,7 +70,7 @@ You'll get this if you use images smaller than `720px`.
 
 Inline code samples are simple inline colored blocks as in `let inlineBlock = 'inline';`
 
-Fenced code blocks are block contents styled as sample below. See [GFM guide](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
+Fenced code blocks are block contents styled as sample below. See [GFM guide](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown "GFM guide")
 
 ```javascript
 let greetDictator = () => {
@@ -81,7 +81,7 @@ greet("Unde Mocratic");
 
 ## Text Elements
 
-Here is the old **bold** text, and great *italic*. Links appear like [link to theme repo](https://github.com/xkema/xkema.github.io). Breaked lines starts from just here (with double or more spaces in markdown content):  
+Here is the old **bold** text, and great *italic*. Links appear like [link to theme repo](https://github.com/xkema/xkema.github.io "link to theme repo"). Breaked lines starts from just here (with double or more spaces in markdown content):  
 I'm breaked with a `<br>` element.
 
 ## Inline Horizontal Rule

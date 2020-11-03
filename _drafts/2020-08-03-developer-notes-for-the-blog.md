@@ -10,6 +10,7 @@ This is an always exists draft post. Drafts are only listed on development envir
 
 ## styleguide
 
+- use full absolute paths for blog-demo-* pages, use /2020/blog-title paths for inner blog links 
 - use lowercase [@todo change lowecase requirement], space separated words for tags, like "hola lola" (will be slugified with latin option "hola-lola")
 - each demo page goes into their own repo
 - demo repos use "blog-demo-{{post_title | slugify: "latin" }}" format for their name

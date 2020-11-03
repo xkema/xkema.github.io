@@ -8,7 +8,7 @@ tags:
   - DOM Nodes are Expensive - Part 2
 ---
 
-> This post is the second part of a 3-parts article series named "[DOM Nodes are Expensive](https://xkema.github.io/2020/dom-nodes-are-expensive "DOM Nodes are Expensive - A Prelude")". Each post consists of a writing part and a demo part. For this post, check-out the demo page at [Demo 2 - Demarcation Methods](https://xkema.github.io/blog-demo-dom-nodes-are-expensive/demarcation-methods "Demo 2 - Demarcation Methods").
+> This post is the second part of a 3-parts article series named "[DOM Nodes are Expensive](/2020/dom-nodes-are-expensive "DOM Nodes are Expensive - A Prelude")". Each post consists of a writing part and a demo part. For this post, check-out the demo page at [Demo 2 - Demarcation Methods](https://xkema.github.io/blog-demo-dom-nodes-are-expensive/demarcation-methods "Demo 2 - Demarcation Methods").
 
 ## Render Just the Right Parts 
 

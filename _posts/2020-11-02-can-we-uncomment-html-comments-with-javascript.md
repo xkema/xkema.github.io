@@ -7,7 +7,7 @@ tags:
   - DOM Nodes are Expensive - Part 1
 ---
 
-> This post is the first part of a 3-parts article series named "[DOM Nodes are Expensive](https://xkema.github.io/2020/dom-nodes-are-expensive "DOM Nodes are Expensive - A Prelude")". Each post consists of a writing part and a demo part. For this post, check-out the demo page at [Demo 1 - HTML Comments](https://xkema.github.io/blog-demo-dom-nodes-are-expensive/html-comments "Demo 1 - HTML Comments").
+> This post is the first part of a 3-parts article series named "[DOM Nodes are Expensive](/2020/dom-nodes-are-expensive "DOM Nodes are Expensive - A Prelude")". Each post consists of a writing part and a demo part. For this post, check-out the demo page at [Demo 1 - HTML Comments](https://xkema.github.io/blog-demo-dom-nodes-are-expensive/html-comments "Demo 1 - HTML Comments").
 
 
 ## DOM is Language Independent
@@ -16,7 +16,7 @@ First thing is first, what is the DOM?
 
 **DOM** (Document Object Model) is the representation of an annotated text as programmable objects. When it comes to web development, this annotated text is usually the `HTML`, and programmable objects are various DOM interfaces like `Node`, `Element`, `HTMLLinkElement`, ...
 
-DOM representations are essential because they allow us to create or modify webpages with JavaScript programming language. Browsers engines read and parse `HTML` texts into the DOM. Before that, we are unable to access DOM elements by JavaScript. Then, we are good to go with JavaScript to change and modify it. For further reading, check out the [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#DOM_and_JavaScript "DOM and JavaScript") page on DOM.
+DOM representations are essential because they allow us to create or modify webpages with JavaScript programming language. Browser engines read and parse `HTML` texts into the DOM. Before that, we are unable to access DOM elements by JavaScript. Then, we are good to go with JavaScript to change and modify it. For further reading, check out the [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#DOM_and_JavaScript "DOM and JavaScript") page on DOM.
 
 When working with an HTML page, we usually focus on the usual DOM nodes like the `body`, `p`, `div`, `a`, ... We select them with methods like `querySelector()` and `querySelectorAll()` which return `Element` or `HTMLElement` interface instances. Usual developer activities. We don't even notice comment nodes or empty text nodes while working with these methods and interfaces. As a matter of fact, we do not need to notice them at all.
 
@@ -56,4 +56,4 @@ Why do we even care for this? We care, because DOM nodes are relational objects,
 
 That's it for the initial question. If you want to go further with this topic, we'll have a real-world example for this. With having "**Part 1**" in mind, let's take a look at React's textual content update methods.
 
-**Next**: [Part 2 - React's Demarcation Methods](https://xkema.github.io/2020/react-s-demarcation-methods "Part 2 - React's Demarcation Methods")
+**Next**: [Part 2 - React's Demarcation Methods](/2020/react-s-demarcation-methods "Part 2 - React's Demarcation Methods")
