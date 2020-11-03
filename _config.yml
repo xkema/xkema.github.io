@@ -1,5 +1,5 @@
 # Site Settings (Custom variables accessible via {{ site.* }})
-title: "Kemal Yılmaz - Blog"
+title: "kemal yılmaz - blog"
 email: kemal.yilmaz@tutanota.com
 description: "A Front End Developer Blog - xkema.github.io"
 url: ""

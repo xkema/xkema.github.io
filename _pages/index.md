@@ -1,5 +1,5 @@
 ---
 layout: frontpage
-title: Kemal Yılmaz - Blog
+title: kemal yılmaz - blog
 permalink: /
 ---
