@@ -18,7 +18,7 @@ What an unnecessary question! :) Who cares comment nodes inside the DOM? With la
 **Part 1** will cover the simple answer to the main question, which is "yes". **Part 2** will show React's internal demarcation methods at different versions. **Part 3** will try to compare memory consumption led by these extra DOM nodes.
 
 - **Part 1** - [Can We Uncomment HTML Comments with JavaScript?](https://xkema.github.io/2020/can-we-uncomment-html-comments-with-javascript "Part 1 - Can We Uncomment HTML Comments with JavaScript?")
-- **Part 2** - React's Demarcation Methods (incoming)
+- **Part 2** - [React's Demarcation Methods](https://xkema.github.io/2020/react-s-demarcation-methods "Part 2 - React's Demarcation Methods")
 - **Part 3** - Memory Usage of Extra DOM Nodes (incoming)
 
 There will also be blog demo pages for each part.
@@ -39,7 +39,7 @@ The second one was a performance optimization problem that one of my colleagues 
 
 These two events made me dug deeper and search some more about HTML comments. Here we start with the first part.
 
-**Part 1** - [Can We Uncomment HTML Comments with JavaScript?](https://xkema.github.io/2020/can-we-uncomment-html-comments-with-javascript "Part 1 - Can We Uncomment HTML Comments with JavaScript?")
+**Next**: [Can We Uncomment HTML Comments with JavaScript?](https://xkema.github.io/2020/can-we-uncomment-html-comments-with-javascript "Part 1 - Can We Uncomment HTML Comments with JavaScript?")
 
 ## A Wrap Up for the Series
 

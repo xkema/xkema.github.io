@@ -56,4 +56,4 @@ Why do we even care for this? We care, because DOM nodes are relational objects,
 
 That's it for the initial question. If you want to go further with this topic, we'll have a real-world example for this. With having "**Part 1**" in mind, let's take a look at React's textual content update methods.
 
-**Next**: Part 2 - React’s Demarcation Methods (incoming)
+**Next**: [React's Demarcation Methods](https://xkema.github.io/2020/react-s-demarcation-methods "Part 2 - React's Demarcation Methods")
