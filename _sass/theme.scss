@@ -240,6 +240,17 @@ hr {
   }
 }
 
+.layout-post {
+  .post {
+    &::after {
+      content: "\00220e";
+      color: black;
+      display: block;
+      text-align: center;
+    }
+  }
+}
+
 // --- page
 
 .page {
