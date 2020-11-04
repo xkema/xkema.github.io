@@ -17,6 +17,9 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
+  - assets/raw
+  - assets/tools
+  - assets/favicons
 include:
   - _pages
 timezone: Asia/Istanbul
