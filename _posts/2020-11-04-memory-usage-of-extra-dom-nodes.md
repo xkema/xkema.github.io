@@ -101,24 +101,24 @@ Here is the summary table for all pages. Odd columns that start with the page na
 
 Consider this table as the task manager results in detail.
 
-|     Page      |    #comment    |     #text      | #document | domNode (total) | Snapshot Size |
-| :-----------: | :------------: | :------------: | :-------: | :-------------: | :-----------: |
-|   `index-0`   |     `144B`     |     `8KiB`     | `254KiB`  |    `281KiB`     |   `0.55MB`    |
-|    &nbsp;     |   `1 count`    |   `64 count`   | `1 count` |   `106 count`   |    &nbsp;     |
-|  `index-10k`  |     `1MiB`     |     `1MiB`     |  `4MiB`   |     `7MiB`      |    `7.8MB`    |
-|    &nbsp;     | `10000 count`  | `10064 count`  | `1 count` |  `20106 count`  |    &nbsp;     |
-|  `index-50k`  |     `6MiB`     |     `6MiB`     |  `22MiB`  |     `35MiB`     |   `37.4MB`    |
-|    &nbsp;     | `50000 count`  | `50064 count`  | `1 count` | `100106 count`  |    &nbsp;     |
-| `index-100k`  |    `13MiB`     |    `12MiB`     |  `44MiB`  |     `70MiB`     |   `74.2MB`    |
-|    &nbsp;     | `100000 count` | `100064 count` | `1 count` | `200106 count`  |    &nbsp;     |
-| `index-10kc`  |     `1MiB`     |     `7KiB`     |  `1MiB`   |     `3MiB`      |    `3.5MB`    |
-|    &nbsp;     | `10000 count`  |   `61 count`   | `1 count` |  `10101 count`  |    &nbsp;     |
-| `index-50kc`  |     `6MiB`     |     `7KiB`     |  `7MiB`   |     `14MiB`     |    `15MB`     |
-|    &nbsp;     | `50000 count`  |   `61 count`   | `1 count` |  `50101 count`  |    &nbsp;     |
-| `index-100kc` |    `13MiB`     |     `7KiB`     |  `14MiB`  |     `27MiB`     |   `29.4MB`    |
-|    &nbsp;     | `100000 count` |   `61 count`   | `1 count` | `100101 count`  |    &nbsp;     |
-| `index-50kct` |     `1MiB`     |     `8KiB`     |  `1MiB`   |     `2MiB`      |    `2.7MB`    |
-|    &nbsp;     |   `1 count`    |   `63 count`   | `1 count` |   `104 count`   |    &nbsp;     |
+|     Page      |    #comment    |     #text      | #document | domNode (total) |          Snapshot Size           |
+| :-----------: | :------------: | :------------: | :-------: | :-------------: | :------------------------------: |
+|   `index-0`   |     `144B`     |     `8KiB`     | `254KiB`  |    `281KiB`     |             `0.55MB`             |
+|    &nbsp;     |   `1 count`    |   `64 count`   | `1 count` |   `106 count`   |   [snapshot][snapshot-index-0]   |
+|  `index-10k`  |     `1MiB`     |     `1MiB`     |  `4MiB`   |     `7MiB`      |             `7.8MB`              |
+|    &nbsp;     | `10000 count`  | `10064 count`  | `1 count` |  `20106 count`  |  [snapshot][snapshot-index-10k]  |
+|  `index-50k`  |     `6MiB`     |     `6MiB`     |  `22MiB`  |     `35MiB`     |             `37.4MB`             |
+|    &nbsp;     | `50000 count`  | `50064 count`  | `1 count` | `100106 count`  |  [snapshot][snapshot-index-50k]  |
+| `index-100k`  |    `13MiB`     |    `12MiB`     |  `44MiB`  |     `70MiB`     |             `74.2MB`             |
+|    &nbsp;     | `100000 count` | `100064 count` | `1 count` | `200106 count`  | [snapshot][snapshot-index-100k]  |
+| `index-10kc`  |     `1MiB`     |     `7KiB`     |  `1MiB`   |     `3MiB`      |             `3.5MB`              |
+|    &nbsp;     | `10000 count`  |   `61 count`   | `1 count` |  `10101 count`  | [snapshot][snapshot-index-10kc]  |
+| `index-50kc`  |     `6MiB`     |     `7KiB`     |  `7MiB`   |     `14MiB`     |              `15MB`              |
+|    &nbsp;     | `50000 count`  |   `61 count`   | `1 count` |  `50101 count`  | [snapshot][snapshot-index-50kc]  |
+| `index-100kc` |    `13MiB`     |     `7KiB`     |  `14MiB`  |     `27MiB`     |             `29.4MB`             |
+|    &nbsp;     | `100000 count` |   `61 count`   | `1 count` | `100101 count`  | [snapshot][snapshot-index-100kc] |
+| `index-50kct` |     `1MiB`     |     `8KiB`     |  `1MiB`   |     `2MiB`      |             `2.7MB`              |
+|    &nbsp;     |   `1 count`    |   `63 count`   | `1 count` |   `104 count`   | [snapshot][snapshot-index-50kct] |
 
 ### Increasing Number of DOM Nodes: `10k`, `50k` and `100k` Pages
 
@@ -173,3 +173,12 @@ However, larger DOM size will still increase memory usage, slow down the layout 
 Wrap up for the series is at the prelude post. Head back to the starter post to see takeaways from series.
 
 **Prelude Post**: [A Wrap Up for the Series](/2020/dom-nodes-are-expensive#a-wrap-up-for-the-series "A Wrap Up for the Series")
+
+[snapshot-index-0]: /assets/uploads/memory-usage-index-0.png "snapshot-index-0"
+[snapshot-index-10k]: /assets/uploads/memory-usage-index-10k.png "snapshot-index-10k"
+[snapshot-index-50k]: /assets/uploads/memory-usage-index-50k.png "snapshot-index-50k"
+[snapshot-index-100k]: /assets/uploads/memory-usage-index-100k.png "snapshot-index-100k"
+[snapshot-index-10kc]: /assets/uploads/memory-usage-index-10kc.png "snapshot-index-10kc"
+[snapshot-index-50kc]: /assets/uploads/memory-usage-index-50kc.png "snapshot-index-50kc"
+[snapshot-index-100kc]: /assets/uploads/memory-usage-index-100kc.png "snapshot-index-100kc"
+[snapshot-index-50kct]: /assets/uploads/memory-usage-index-50kct.png "snapshot-index-50kct"
