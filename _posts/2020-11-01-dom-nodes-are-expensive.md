@@ -19,7 +19,7 @@ What an unnecessary question! :) Who cares comment nodes inside the DOM? With la
 
 - **Part 1** - [Can We Uncomment HTML Comments with JavaScript?](/2020/can-we-uncomment-html-comments-with-javascript "Part 1 - Can We Uncomment HTML Comments with JavaScript?")
 - **Part 2** - [React's Demarcation Methods](/2020/react-s-demarcation-methods "Part 2 - React's Demarcation Methods")
-- **Part 3** - Memory Usage of Extra DOM Nodes (incoming)
+- **Part 3** - [Memory Usage of Extra DOM Nodes](/2020/memory-usage-of-extra-dom-nodes "Part 3 - Memory Usage of Extra DOM Nodes")
 
 There will also be blog demo pages for each part.
 

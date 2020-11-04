@@ -49,4 +49,4 @@ React is all about performant user interfaces and components. It is just concern
 
 After this real-world example, we may continue with our memory problems and see why React changed demarcation behaviour steadily in-between different versions. And see why it is vital to reduce the number of HTML elements on a page and remove unnecessary spaces from served HTML content.
 
-**Next**: Part 3 - Memory Usage of Extra DOM Nodes (incoming)
+**Next**: [Part 3 - Memory Usage of Extra DOM Nodes](/2020/memory-usage-of-extra-dom-nodes "Part 3 - Memory Usage of Extra DOM Nodes")
