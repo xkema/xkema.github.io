@@ -6,14 +6,14 @@ excerpt: Notes and todos for myself about blog theme, posts, styles, ...
 
 Developer notes and todos for the blog.
 
-This is an always exists draft post. Drafts are only listed on development environment. This is a also draft post sample for future posts.
+This is an always exists draft post. Drafts are only listed on development environment. This is also a draft post sample for future posts.
 
 ## styleguide
 
-- use full absolute paths for blog-demo-* pages, use /2020/blog-title paths for inner blog links 
-- use lowercase [@todo change lowecase requirement], space separated words for tags, like "hola lola" (will be slugified with latin option "hola-lola")
+- use full absolute paths for **blog-demo-*** pages, use **/2020/blog-title** paths for inner blog links 
+- use lowercase [`@todo` change lowecase requirement], space separated words for tags, like "hola lola" (will be slugified with latin option "hola-lola")
 - each demo page goes into their own repo
-- demo repos use "blog-demo-{{post_title | slugify: "latin" }}" format for their name
+- demo repos use `blog-demo-{{post_title | slugify: "latin" }}` format for their name
 - post content (draft, all items are optional)
   - excerpt (from front matter excerpt, first gray box)
   - intro (short intro text, an outline for the post)
@@ -48,6 +48,18 @@ This is an always exists draft post. Drafts are only listed on development envir
 ## post notes & todo
 
 Notes and todo on `draft`, `unpublished` and `released` posts.
+
+### running-transitions-on-dynamicly-created-dom-elements
+
+```
+---
+title: running-transitions-on-dynamicly-created-dom-elements
+excerpt: running-transitions-on-dynamicly-created-dom-elements
+tags:
+  - css transitions
+  - javascript
+---
+```
 
 ### dom nodes are expensive
 
@@ -87,16 +99,13 @@ Notes and todo on `draft`, `unpublished` and `released` posts.
 - https://web.dev/dom-size/
 - https://web.dev/lighthouse-performance/
 
-### submitting extensions
+## Publishing Extensions into Stores
 
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
 - [Workspaces](https://developers.google.com/web/tools/chrome-devtools/workspaces/)
 - [Local Overrides](https://developers.google.com/web/updates/2018/01/devtools#overrides)
 https://webkit.org/web-inspector/local-overrides/
-
-## Publishing Extensions into Stores
-
 - firefox update to 1.1.0 was nearly immediate
   - tell isertAdjacentHTML warn
 - chrome re-review and update took half a day
