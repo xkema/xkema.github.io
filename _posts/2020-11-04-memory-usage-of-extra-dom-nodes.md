@@ -1,6 +1,6 @@
 ---
 title: Memory Usage of Extra DOM Nodes
-excerpt: In this last post, we'll compare the memory snapshots for a page that has the same content but different sizes of comment nodes.
+excerpt: In this last part of the series, we'll compare the memory snapshots for a page that has the same content but different sizes of comment nodes.
 tags:
   - dom
   - memory usage
@@ -170,6 +170,6 @@ However, larger DOM size will still increase memory usage, slow down the layout 
 
 ## Wrap Up
 
-Wrap up for the series is ar the prelude post. Head back to the starter post to see takeaways from series.
+Wrap up for the series is at the prelude post. Head back to the starter post to see takeaways from series.
 
 **Prelude Post**: [A Wrap Up for the Series](/2020/dom-nodes-are-expensive#a-wrap-up-for-the-series "A Wrap Up for the Series")
