@@ -16,6 +16,7 @@ This is an always exists draft post. Drafts are only listed on development envir
 - demo repos use `blog-demo-{{post_title | slugify: "latin" }}` format for their name
 - post content (draft, all items are optional)
   - excerpt (from front matter excerpt, first gray box)
+  - post featured image
   - intro (short intro text, an outline for the post)
   - background story
   - terms
