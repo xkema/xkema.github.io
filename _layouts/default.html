@@ -19,5 +19,8 @@
     </main>
     {% include footer.html %}
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    {% if jekyll.environment != 'development' %}
+    <script data-goatcounter="https://missofis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    {% endif %}
   </body>
 </html>
