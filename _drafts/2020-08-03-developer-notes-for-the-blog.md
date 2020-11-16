@@ -26,6 +26,7 @@ This is an always exists draft post. Drafts are only listed on development envir
 
 ## blog todo
 
+- add goat analytics note for blog-demo-* pages
 - https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth
 - https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering
 - add notification section to front matter to show content notifications for out-of-post-content messages like draft/unpublished post messages

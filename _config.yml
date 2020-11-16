@@ -50,3 +50,5 @@ defaults:
 # Build Command Options
 strict_front_matter: true
 baseurl: ""
+plugins:
+  - jekyll-sitemap
