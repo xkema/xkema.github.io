@@ -41,7 +41,7 @@ JavaScript engines use different methods to manage memory. Firefox has **SpiderM
 I picked **Firefox Developer Tools** to take heap snapshots. (*Developer Edition*) Here are the reasons:
 
 - It has a **Treemap** visualizer.
-- Chrome's Memory tool doesn't show native objects sizes where the initial DOM nodes are stored in. (*I've also included Chrome Task Manager results.*)
+- Chrome's Memory tool doesn't show native objects' sizes where the initial DOM nodes are stored in. (*I've also included Chrome Task Manager results.*)
 - I was unable to take heap snapshots with Chrome's Memory tool for the large pages. (*Builds were taking too much time or they were completely stuck at some point.*)
 
 > Will increasing the number of comment nodes, also increase memory usage?

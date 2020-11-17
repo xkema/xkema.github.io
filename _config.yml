@@ -50,5 +50,7 @@ defaults:
 # Build Command Options
 strict_front_matter: true
 baseurl: ""
+# sitemap plugin configuration
+url: "https://xkema.github.io"
 plugins:
   - jekyll-sitemap
