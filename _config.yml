@@ -2,7 +2,6 @@
 title: "kemal yılmaz - blog"
 email: kemal.yilmaz@tutanota.com
 description: "A Front End Developer Blog - xkema.github.io"
-url: ""
 
 # Other Settings
 permalink: /:year/:title
@@ -20,6 +19,7 @@ exclude:
   - assets/raw
   - assets/tools
   - assets/favicons
+  - bin
 include:
   - _pages
 timezone: Asia/Istanbul
