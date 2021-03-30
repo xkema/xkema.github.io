@@ -51,7 +51,9 @@ This is an always exists draft post. Drafts are only listed on development envir
 
 Notes and todo on `draft`, `unpublished` and `released` posts.
 
-### running-transitions-on-dynamicly-created-dom-elements
+### What would Happened to my Blog If I were a Publisher
+
+### running-transitions-on-dynamicly-created-dom-elements
 
 ```
 ---
