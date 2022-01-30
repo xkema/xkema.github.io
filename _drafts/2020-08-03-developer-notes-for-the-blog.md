@@ -65,6 +65,43 @@ tags:
 ---
 ```
 
+```
+// we create an element
+const box = document.createElement("div")
+
+// add it to the DOM
+document.body.appendChild(box)
+
+// add two css classes
+box.classList.add("box")
+
+// and remove 'faded-out' in order to fade-in our element
+// requestAnimationFrame (does not work if there is a heavy for loop)
+setTimeout(() => {
+	box.classList.add("faded-out");
+})
+
+for(var i=0; i<200000; i++) {
+	const elem = document.createElement('div');
+  elem.innerText = `h-${Math.random()}`;
+  document.body.insertAdjacentElement('beforeEnd', elem)
+  elem.style.paddingLeft = `100px`
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #9D5B75;
+  transition: opacity 500ms;
+  opacity: 0;
+}
+
+.box.faded-out {
+  opacity: 1;
+}
+
+```
+
 ### dom nodes are expensive
 
 - things are countable so count them
