@@ -15,6 +15,12 @@ layout: default
       <p class="post-excerpt">
         {% if excerpt_stripped != "" %}{{ excerpt_stripped | truncatewords: 50 }}{% else %}{{ post.title }}{% endif %}
       </p>
+      {% if post.multipart %}
+      <div class="post-multipart">
+        <span>multipart</span>
+        <span>{{ post.multipart }}</span>        
+      </div>
+      {% endif %}
     </article>
   </li>
   {% endif %}
