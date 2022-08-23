@@ -54,3 +54,4 @@ baseurl: ""
 url: "https://xkema.github.io"
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
