@@ -42,16 +42,41 @@ This is an always exists draft post. Drafts are only listed on development envir
 
 ## drafts
 
+### mixed
+  - s
+  - s
+  - s
+- untitled yarn rollup typescript and yarn webpack typescrip docs
+  - this post wont solve all of your problems because every project is unit and i belive it is supposed be that way. to protect our proffession.
+  - two blog posts focus on key points instead of givin a comprehensive perspective
+  - babel-loader is a part of webpack
+  - preset-env and preset-typescript are a part of babel
+  - what path should i follow to start ,from type checing system to comiler then bunler or from bundler to transpiler to ... it depends
+  - difference between lib and target, since you dont need a compiler target option migth be omitted (show lib defaults for target)
+  - both babel presets and webpack loaders are executed in a reversed order fashion (both stated in respective docs)
+  - first of all, forget vscode or change type to plaın text
+  - https://babeljs.io/docs/en/babel-plugin-transform-typescript#typescript-compiler-options > --target Babel doesn't support targeting a specific version of ...
+  - do i need declaration files for my simple library, no
+  - same shit different tooling, if i were to define modern front-end development i would say this
+  - so you're writing a library just for your own work, you do not need d.ts declaration files
+  - https://devblogs.microsoft.com/typescript/typescript-and-babel-7/ > So even if Babel builds successfully, you might need to check in with TypeScript to catch type errors. For that reason, we feel tsc and the tools around the compiler pipeline will still give the most integrated and consistent experience for most projects.
+  - https://2ality.com/2020/04/npm-cjs-typescript.html#tsconfig.json > target: What is the targeted ECMAScript version? Features that the targeted version does not support will be compiled to features that it does support. Therefore, if we target ES3, many features with be compiled. lib: What platform features should TypeScript be aware of? Possibilities includes the ECMAScript standard library and the DOM of browsers. The Node.js API is supported differently, via the package @types/node.
+  - s
+  - s
+  - s
 - some extra metrics to fight with sales
 - amp vs mobile on tr detail pages, do we really need it in tr area?
 - i was a fan of google products till i listened to shoushanne???
 - padisahim cok yasa: yazilim gelistiriciler 3e ayrilir, strtw, sekerp-kib, kolpacino. iyi veya kotu ayrimi degil salakca bir kategorizsayon denemesi
+- cache-control form non-developers perspective
 
 ## post notes & todo
 
 Notes and todo on `draft`, `unpublished` and `released` posts.
 
 ### What would Happened to my Blog If I were a Publisher
+
+na
 
 ### running-transitions-on-dynamicly-created-dom-elements
 
@@ -140,7 +165,7 @@ for(var i=0; i<200000; i++) {
 - https://web.dev/dom-size/
 - https://web.dev/lighthouse-performance/
 
-## Publishing Extensions into Stores
+### Publishing Extensions into Stores
 
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
