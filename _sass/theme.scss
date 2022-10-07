@@ -138,6 +138,19 @@ hr {
     .post-excerpt {
       margin-bottom: 0;
     }
+    .post-continue-reading {
+      display: inline-block;
+      background-color: var(--link-color);
+      color: var(--color-almost-white);
+      border-radius: 1rem;
+      margin: 0.5rem 0;
+      padding: 0.125rem 1rem;
+      text-decoration: none;
+      font-size: 87.5%;
+      &:hover {
+        background-color: var(--link-hover-color);
+      }
+    }
     .post-multipart {
       span {
         font-family: var(--font-stack-monospace);
@@ -300,6 +313,14 @@ hr {
 
 
 @media (max-width: 768px) {
+  .posts-list {
+    .post {
+      .post-continue-reading {
+        padding: 0.25rem 1rem;
+      }
+    }
+  }
+  
   .post-content,
   .page-content,
   .post-excerpt {

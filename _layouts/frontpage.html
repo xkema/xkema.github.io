@@ -15,6 +15,7 @@ layout: default
       <p class="post-excerpt">
         {% if excerpt_stripped != "" %}{{ excerpt_stripped | truncatewords: 50 }}{% else %}{{ post.title }}{% endif %}
       </p>
+      <a href="{{ post.url | relative_url }}" class="post-continue-reading" title="{{ post.title | escape }}">continue&nbsp;reading&nbsp;&Rarr;</a>
       {% if post.multipart %}
       <div class="post-multipart">
         <span>multipart</span>
