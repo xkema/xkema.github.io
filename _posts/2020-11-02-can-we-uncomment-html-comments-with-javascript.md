@@ -6,6 +6,7 @@ tags:
   - html comments
   - DOM Nodes are Expensive - Part 1
 multipart: 1/3
+canonical: https://kemalyilmaz.com/blog/can-we-uncomment-html-comments-with-javascript/
 ---
 
 > This post is the first part of a 3-parts article series named "[DOM Nodes are Expensive](/2020/dom-nodes-are-expensive "DOM Nodes are Expensive - A Prelude")". Each post consists of a writing part and a demo part. For this post, check-out the demo page at [Demo 1 - HTML Comments](https://xkema.github.io/blog-demo-dom-nodes-are-expensive/html-comments "Demo 1 - HTML Comments").

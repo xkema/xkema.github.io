@@ -3,6 +3,7 @@ title: A Late Welcome
 excerpt: A bit late welcome message for the blog.
 tags:
   - welcome
+canonical: https://kemalyilmaz.com/blog/a-late-welcome/
 ---
 
 After postponing it for a decade or more, here is my first blog post. I've always wanted to share free and valuable content with others. Blogging was the modern way to do it so, but I couldn't manage to decide what is valuable or not. It was the main obstacle for me to have a public blog. So I decided to change this view to "*please just share something and keep the evaluation to the reader*" view.

@@ -9,6 +9,7 @@ tags:
   - Chapter 2
   - Part 4, 5, 6, 7, 8, 9
 multipart: 2/7
+canonical: https://kemalyilmaz.com/blog/building-up-the-gatsby-project-with-markdown-content/
 ---
 
 > This post is the 2nd chapter of a 7-chapter article series "[Going Local and Free with Gatsby & Netlify CMS](/2022/going-local-and-free-with-gatsby-and-netlify-cms)".

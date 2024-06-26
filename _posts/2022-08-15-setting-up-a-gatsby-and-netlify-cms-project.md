@@ -8,6 +8,7 @@ tags:
   - Chapter 1
   - Part 1, 2, 3
 multipart: 1/7
+canonical: https://kemalyilmaz.com/blog/setting-up-a-gatsby-and-netlify-cms-project/
 ---
 
 > This post is the 1st chapter of a 7-chapter article series "[Going Local and Free with Gatsby & Netlify CMS](/2022/going-local-and-free-with-gatsby-and-netlify-cms)".

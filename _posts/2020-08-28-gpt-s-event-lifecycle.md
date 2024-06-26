@@ -5,6 +5,7 @@ tags:
   - gpt
   - gpt's event lifecycle
   - display ads
+canonical: https://kemalyilmaz.com/blog/gpt-s-event-lifecycle/
 ---
 
 Google Publisher Tag (**GPT**) is a JavaScript library to show digital ads controlled & served by Google Ad Manager on web pages. It is a fairly complex and closed source library maintained and served by Google. Simply put, you add a JavaScript Library and some additional `html` tags (ad tags) to your web page and Google gives you back display ads from a huge network of privacy eating partners, including themselves.

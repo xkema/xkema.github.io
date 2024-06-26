@@ -4,6 +4,7 @@ excerpt: There are multiple ways to intercept network requests on different laye
 tags:
   - request interceptor
   - web extension apis
+canonical: https://kemalyilmaz.com/blog/intercepting-network-requests-on-browser-level/
 ---
 
 ![Post Featured - Intercepting Network Requests by a Browser Extension](/assets/uploads/post-featured-intercepting-network-requests-on-browser-level.jpg "Post Featured - Intercepting Network Requests by a Browser Extension")

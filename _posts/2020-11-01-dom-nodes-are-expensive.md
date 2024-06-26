@@ -6,6 +6,7 @@ tags:
   - html comments
   - react demarcation
 multipart: intro
+canonical: https://kemalyilmaz.com/blog/dom-nodes-are-expensive/
 ---
 
 Everyting started with a simple question:

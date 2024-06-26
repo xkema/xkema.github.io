@@ -7,6 +7,7 @@ tags:
   - demarcation
   - DOM Nodes are Expensive - Part 2
 multipart: 2/3
+canonical: https://kemalyilmaz.com/blog/react-s-demarcation-methods/
 ---
 
 > This post is the second part of a 3-parts article series named "[DOM Nodes are Expensive](/2020/dom-nodes-are-expensive "DOM Nodes are Expensive - A Prelude")". Each post consists of a writing part and a demo part. For this post, check-out the demo page at [Demo 2 - Demarcation Methods](https://xkema.github.io/blog-demo-dom-nodes-are-expensive/demarcation-methods "Demo 2 - Demarcation Methods").

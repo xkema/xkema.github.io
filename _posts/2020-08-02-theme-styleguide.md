@@ -4,6 +4,7 @@ title: Theme Styleguide
 excerpt: This is the styleguide page of this jekyll template, with basic HTML elements, styles and etc..
 tags:
   - theme styleguide
+canonical: https://kemalyilmaz.com/blog/theme-styleguide/
 ---
 
 ![A Top Image](https://picsum.photos/720/320/?image=212 "A Top Image")

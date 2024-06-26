@@ -9,6 +9,7 @@ tags:
   - Intro
   - GitHub Pages
 multipart: intro
+canonical: https://kemalyilmaz.com/blog/going-local-and-free-with-gatsby-and-netlify-cms/
 ---
 
 Jamstack is an architectural pattern for building websites and web applications based on two core principles. One is the famous "**pre-rendering**", and the other is the "**loose-coupling**" between the parts of the system we built. In this tutorial series, I'll try to develop a simple static website using the Jamstack architecture with a local Git-based backend and a static site generator.

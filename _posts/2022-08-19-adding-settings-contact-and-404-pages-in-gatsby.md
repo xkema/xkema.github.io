@@ -8,6 +8,7 @@ tags:
   - Chapter 5
   - Part 15, 16, 17
 multipart: 5/7
+canonical: https://kemalyilmaz.com/blog/adding-settings-contact-and-404-pages-in-gatsby/
 ---
 
 > This post is the 5th chapter of a 7-chapter article series "[Going Local and Free with Gatsby & Netlify CMS](/2022/going-local-and-free-with-gatsby-and-netlify-cms)".

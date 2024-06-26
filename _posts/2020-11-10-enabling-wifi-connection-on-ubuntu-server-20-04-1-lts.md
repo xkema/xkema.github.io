@@ -6,6 +6,7 @@ tags:
   - wifi
   - netplan
   - network-manager
+canonical: https://kemalyilmaz.com/blog/enabling-wifi-connection-on-ubuntu-server-20-04-1-lts/
 ---
 
 ![Post Featured - Enabling WiFi on Ubuntu Server 20.04.1 LTS](/assets/uploads/post-featured-enabling-wifi-on-ubuntu-server.jpg "Post Featured - Enabling WiFi on Ubuntu Server 20.04.1 LTS")

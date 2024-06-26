@@ -9,6 +9,7 @@ tags:
   - Chapter 3
   - Part 10, 11, 12
 multipart: 3/7
+canonical: https://kemalyilmaz.com/blog/working-with-image-paths-in-the-markdown-content-in-gatsby/
 ---
 
 > This post is the 3rd chapter of a 7-chapter article series "[Going Local and Free with Gatsby & Netlify CMS](/2022/going-local-and-free-with-gatsby-and-netlify-cms)".

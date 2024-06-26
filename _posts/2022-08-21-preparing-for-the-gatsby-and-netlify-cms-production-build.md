@@ -9,6 +9,7 @@ tags:
   - Chapter 7
   - Part 19
 multipart: 7/7
+canonical: https://kemalyilmaz.com/blog/preparing-for-the-gatsby-and-netlify-cms-production-build/
 ---
 
 > This post is the 7th and the last chapter of a 7-chapter article series "[Going Local and Free with Gatsby & Netlify CMS](/2022/going-local-and-free-with-gatsby-and-netlify-cms)".
